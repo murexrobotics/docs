@@ -1,3 +1,12 @@
 # Summary
 
-- [Chapter 1](./chapter_1.md)
+- [Introduction](./introduction.md)
+- [Structure](./structure.md)
+- [Standards](./standards.md)
+
+- [Programming](./prog/prog.md)
+
+- [Electrical](./elec/elec.md)
+  - [Tech Stack](./elec/tech_stack.md)
+
+- [Mechanical](./mech/mech.md)
