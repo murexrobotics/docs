@@ -1,3 +1,9 @@
-# Tech Stack
+# Tech Stack for Electrical
 
-MUREX utilizes 
+MUREX utilizes:
+
+- KiCAD (7.99 Nightly)
+- Git
+- GitHub
+- Visual Studio Code
+- mdBook
