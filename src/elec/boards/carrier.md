@@ -39,6 +39,7 @@
 
 #### To Do
 
+- Fix footprint libraries (.pretty)
 - Board-to-board connectors
 - Ethernet switch
 - LX200V20 EVB
