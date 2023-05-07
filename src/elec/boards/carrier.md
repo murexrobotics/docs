@@ -9,14 +9,15 @@
 
 ## Sensors/IC
 
-- PCA9685
-- BME680
-- Magnetometer
-- BMI088
-- Neopixels
-- Piezo Buzzer
-- Screen
-- Light strip
+- PCA9685 (pwm)
+- BME680 (gas)
+- MMC5603NJ (magneto)
+- BMI088 (accel/gyro)
+- MS5837 (depth)
+- Neopixel (debug/status)
+- Piezo Buzzer (debug/status)
+- Screen (debug/status)
+- Light strip (debug/status)
 
 ## Other ICs
 
