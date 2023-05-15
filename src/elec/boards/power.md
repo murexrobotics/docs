@@ -21,8 +21,5 @@
 - External NMos required...
 - Status LEDs: Everlight Electronics Red and Green Diodes
 
-## INO226 Current, Voltage, Power Monitor
-- https://www.ti.com/product/INA226 (Contains Datasheet and U)
-- Supports i2c, SMBus
 
 ## Current Smoothing
