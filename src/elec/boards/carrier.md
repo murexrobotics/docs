@@ -24,6 +24,7 @@
 ### Other ICs
 
 - Ethernet Switch
+- LX200V20EVB + LX200V20
 
 ## Progress
 
@@ -36,13 +37,17 @@
 - Neopixel
 - Footprint
 - Preliminary Research
+- Footprint Linking
 
 #### To Do
 
-- Fix footprint libraries (.pretty)
-- Board-to-board connectors
-- Ethernet switch
-- LX200V20 EVB
+- [ ] PicoBlade from ESC Carrier
+- [ ] Amplification required for leak detection matrix?
+- [ ] External magnetics for Ethernet
+- [ ] Smaller crystal `Y1`
+- [ ] Break out expensive sensors
+- [ ] Route PCB
+- [ ] Mounting holes for Ethernet Switch, PLC and Power board
 
 #### Concerns
 
@@ -51,14 +56,6 @@
 
 #### Solutions
 
-- Purchase external ethernet switch
-  - Pros
-    - Simple, easy, reliable
-  - Cons
-    - Large, more soldering for internal wiring
-
-- Keep LX200V20 EVB
-  - Pros
-    - Simple, easy, reliable
-  - Cons
-    - Large, more components = less integrated
+- Current solution:
+  - Modify existing network switch
+    - Utilize breakout for higher efficiency
