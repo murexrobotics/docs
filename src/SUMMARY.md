@@ -12,6 +12,7 @@
   - [Boards](./elec/boards/boards.md)
     - [Carrier](./elec/boards/carrier.md)
     - [Power](./elec/boards/power.md)
+    - [ESC Carrier](./elec/boards/esc_carrier.md)
   - [Tech Stack](./elec/tech_stack.md)
   - [Topside](./elec/topside.md)
   - [PCB](./elec/pcb/pcb.md)
