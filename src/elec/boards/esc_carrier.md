@@ -6,7 +6,7 @@ The MUREX ESC Carrier board is designed to modularize MUREX's ESCs. In the event
 
 ## Detailed Description
 
-The MUREX ESC Carrier board is a two-layer carrier board that can hold up to 8 MUREX ESCs. The ESCs are protected from damage by Toshiba's TCKE812NA,RF electronic fuse, which provides overcurrent protection, overvoltage protection, and thermal regulation for the 12 volts entering the ESCs. The 3-channel Wago 2606-1103 connector is used to connect to the MUREX Power Board, and the Molex PicoBlade 53261-0571 connector is used to connect to the MUREX Carrier Board. The Molex SlimStack 53625-0674 connector is used to connect the ESCs to the MUREX ESC Carrier Board. The TE 1734260-6 connector is used to output the ESC phases to the brushless DC motors.
+The MUREX ESC Carrier board is a two-layer carrier board that can hold up to 8 MUREX ESCs. The ESCs are protected from damage by Toshiba's TCKE812NA,RF electronic fuse, which provides overcurrent protection, overvoltage protection, and thermal regulation for the 12 volts entering the ESCs. The 3-channel Wago 2606-1103 connector is used to connect to the MUREX Power Board, and the Molex PicoBlade 53261-0571 connector is used to connect to the MUREX Carrier Board. The TE 5530843-7 connector is used to connect the ESCs to the MUREX ESC Carrier Board. The TE 1734260-8 connector is used to output the ESC phases to the brushless DC motors.
 
 ### TCKE812NA,RF (electronic fuse)
 
@@ -24,17 +24,20 @@ The MUREX ESC Carrier board is a two-layer carrier board that can hold up to 8 M
 - 1x5 connector
 - 4 UART pins (2 primary, 2 backup)
 
-### Molex SlimStack 53625-0674 (to MUREX ESCs)
+### TE 5530843-7 (to MUREX ESCs)
 
 - 2x30 connector
 - Sends 12V and 3.3V to ESCs
+- Sends data to ESCs
+- Sends ESC phases to the TE 1734260-8 connector
 
-### TE 1734260-6 (to BLDC Motors)
+### TE 1734260-8 (to BLDC Motors)
 
 - 1x6 connector
 - 3 ESC phase inputs to motors
 
 ## To Do
 
-- [ ] Test pads
+- [ ] Route board
+- [ ] ESC securing mechanism
 - [ ] Add more customizability to efuse
