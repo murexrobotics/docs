@@ -2,7 +2,8 @@
 
 ## Outline
 
-![Raytraced Render](../../img/carrier_raytraced_render.png)
+![Raytraced Render](../../img/carrier_front.png)
+![Raytraced Render](../../img/carrier_back.png)
 
 The MUREX Carrier Board is the world's first open-source CM4-based ROV (robotics) control board.
 
@@ -21,15 +22,15 @@ The MUREX Carrier Board is a four-layer carrier board for the Raspberry Pi Compu
 
 ### Sensors/IC
 
-- PCA9685 (pwm)
-- BME680 (gas)
-- MMC5603NJ (magneto)
-- BMI088 (accel/gyro)
-- MS5837 (depth)
-- Neopixel (debug/status)
-- Piezo Buzzer (debug/status)
-- Screen (debug/status)
-- Light strip (debug/status)
+- PCA9685 (PWM)
+- BME680 (Gas)
+- MMC5603NJ (Magnetometer)
+- BMI088 (IMU)
+- MS5837 (Pressure)
+- Neopixel (Debug/Status)
+- Piezo Buzzer (Debug/Status)
+- Screen (Debug/Status)
+- Light strip (Debug/Status)
 - Leak detection matrix (ROV-specific)
 
 ## Progress
@@ -38,15 +39,14 @@ The MUREX Carrier Board is a four-layer carrier board for the Raspberry Pi Compu
 
 #### To Do
 
-- [ ] 5V pads + diode for external testing
-- [ ] Impedance matched traces
-- [ ] Amplification required for leak detection matrix?
+- [X] 5V pads + diode for external testing
+- [X] Impedance matched traces
+- [ ] Amplification required for leak detection matrix? (still unsure)
 - [ ] External magnetics for Ethernet
   - [X] Work in progress
-- [ ] Break out expensive sensors
-- [ ] Route PCB
-  - [X] Work in progress, V2
-- [ ] Mounting holes for Ethernet Switch, PLC and Power board
+- [X] Break out expensive sensors
+- [X] Route PCB
+  - [X] Work in progress, V1
 
 #### Completed
 
