@@ -66,6 +66,7 @@ The MUREX Carrier Board is a four-layer carrier board for the Raspberry Pi Compu
 
 #### Solutions
 
+- [Communication Protocols and Specific](../../prog/communication.md)
 - Current solution:
   - Modify existing network switch
     - Utilize breakout for higher efficiency

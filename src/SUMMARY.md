@@ -5,6 +5,7 @@
 - [Standards](./standards.md)
 
 - [Programming](./prog/prog.md)
+  - [Communication](./prog/communication.md)
 
 - [Electrical](./elec/elec.md)
   - [Notes](./elec/notes/notes.md)
