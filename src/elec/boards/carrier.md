@@ -39,11 +39,9 @@ The MUREX Carrier Board is a four-layer carrier board for the Raspberry Pi Compu
 
 #### To Do
 
-- [ ] Change footprints for `1N4148` diodes to `SOD323` or `SOD123`
-- [ ] Switch out ferrites for LDO
-- [ ] Alternative to `RT9742SNGV`
-- [ ] Set up CM4 Hirose connector
-- [ ] Replace DIP switches to singles
+- [X] Change footprints for `1N4148` diodes to `SOD323` or `SOD123`
+- [X] Switch out ferrites for LDO (C51118)
+- [X] Set up CM4 Hirose connector
 - [X] 5V pads + diode for external testing
 - [X] Impedance matched traces
 - [ ] Amplification required for leak detection matrix? (still unsure)
