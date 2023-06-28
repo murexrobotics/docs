@@ -36,6 +36,8 @@ The MUREX Carrier Board is a four-layer carrier board for the Raspberry Pi Compu
   - High accuracy 9-DOF MEMS sensor (±1˚ magnetic heading, ±0.004˚/s gyroscopic heading, ±0.09 mg acceleration)
 - `MS5837` (Environmental Pressure)
   - High accuracy, high depth pressure sensor (±2 mm altitude/depth, ±1 C˚ temperature)
+- `ADS1015` (ADC)
+  - High accuracy, LDO filtered power, 12-bit 4 channel ADC. Reads hall effect current sense data from power board. 3 additional, expandable ADC pins.
 - Neopixel (Debug/Status)
   - 6 daisy chained WS2812B LEDs
 - TDK Buzzer (Debug/Status)
@@ -53,6 +55,7 @@ The MUREX Carrier Board is a four-layer carrier board for the Raspberry Pi Compu
 
 ### To Do
 
+- [X] Add ADS1015 address silk to back
 - [ ] Amplification required for leak detection matrix? (still unsure)
 - [ ] External magnetics for Ethernet
   - [X] Work in progress
