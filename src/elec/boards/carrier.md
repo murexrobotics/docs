@@ -14,8 +14,8 @@ The MUREX Carrier Board is a four-layer carrier board for the Raspberry Pi Compu
 
 ### Current Status
 
-- Initial design `V1.0` complete
-  - Waiting for production `"tape-out"`
+- `V1.1` complete
+  - Waiting for production confirmation from fabricator
 
 ### CM4 I/O
 
@@ -59,3 +59,23 @@ The MUREX Carrier Board is a four-layer carrier board for the Raspberry Pi Compu
 - [ ] Amplification required for leak detection matrix? (still unsure)
 - [ ] External magnetics for Ethernet
   - [X] Work in progress
+
+### Changelog:
+
+V1.0:
+
+- Initial design
+
+V1.1:
+
+- Moved R11 + R12 (5.1kΩ USB-C CC1 and CC2 resistors) and C19 (Ethernet capacitor) away from Ethernet connector due to SMT issues
+- Fixed R11 and R12 LCSC part number to match 0603 footprint sizing
+- Widened USB VBUS to 1.0mm
+
+| Design               | Status |
+| -------------------- | ------ |
+| Backwards Compatible | ✅     |
+| Feature Parity       | ✅     |
+| Component Compatible | ✅     |
+| Schematic Changes    | ❌     |
+| PCB Changes          | ✅     |
