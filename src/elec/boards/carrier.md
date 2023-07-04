@@ -49,9 +49,9 @@ The MUREX Carrier Board is a four-layer carrier board for the Raspberry Pi Compu
   - Intended to work with the Blue Robotics Leak Sensors or any other JST-GH size sensor (ROV-specific)
   - Pinpoint the leak with the same anti-ghosting technology from gaming keyboards
 
-### [Schematic (PDF)](../pdf/schematics/carrier_v1.0_schematic.pdf)
+### [Schematic (PDF)](../pdf/schematics/carrier_v1.1_schematic.pdf)
 
-![Schematic Preview](../../img/carrier_board_v1_schematic_preview.png)
+![Schematic Preview](../../img/carrier_board_schematic_preview.png)
 
 ### To Do
 
@@ -68,14 +68,16 @@ V1.0:
 
 V1.1:
 
+- Added I2C line to power board
 - Moved R11 + R12 (5.1kΩ USB-C CC1 and CC2 resistors) and C19 (Ethernet capacitor) away from Ethernet connector due to SMT issues
 - Fixed R11 and R12 LCSC part number to match 0603 footprint sizing
 - Widened USB VBUS to 1.0mm
 
 | Design               | Status |
 | -------------------- | ------ |
-| Backwards Compatible | ✅     |
-| Feature Parity       | ✅     |
+| Physical Parity      | ✅     |
+| Electrical Parity    | ❌     |
+| Backwards Compatible | ❌     |
 | Component Compatible | ✅     |
-| Schematic Changes    | ❌     |
+| Schematic Changes    | ✅     |
 | PCB Changes          | ✅     |
