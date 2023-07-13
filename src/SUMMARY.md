@@ -18,6 +18,7 @@
     - [Networking](./elec/boards/networking/networking.md)
       - [PLC](./elec/boards/networking/plc.md)
       - [Network Switch](./elec/boards/networking/switch.md)
+    - [Vision](./elec/boards/vision/vision.md)
   - [Tech Stack](./elec/tech_stack.md)
   - [Topside](./elec/topside.md)
   - [PCB](./elec/pcb/pcb.md)

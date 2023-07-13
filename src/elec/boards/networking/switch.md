@@ -10,7 +10,7 @@ N/A
 
 ### Current Status
 
-- Research
+- Testing with a Netgear GS305-300PAS
 
 ### Integrated Sensors/ICs
 
@@ -22,7 +22,8 @@ N/A
 
 ### To Do
 
-- Research
+- [ ] Research
+- [ ] Testing
 
 ### Changelog
 
