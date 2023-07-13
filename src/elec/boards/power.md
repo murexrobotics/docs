@@ -4,7 +4,7 @@
 
 The MUREX Power Distribution Board is among the world's smallest step-down converters, reducing an input voltage of 12V to 5V and 3V3 respectively. Integrated current sensors and circuit protection combined with microscopic physical dimensions measuring 45mm x 57mm (1.77in x 2.25in) renders the power board an elite feature of MUREX electronics.
 
-## Description and Features
+## Detailed Description
 
 The Power Board is a robust four-layer power distribution module designed for ROV/robotics and other high current applications. The board expects clean 12V input from a power supply, though it can safely handle input voltages up to 17V. The board utilizes two TPS568215 buck converters to provide 5V output to the [MUREX Carrier Board](https://docs.murexrobotics.com/elec/boards/carrier.html) via an M.2 connector (Key A), and 12V + 3V3 output to the [ESC Carrier Board](https://docs.murexrobotics.com/elec/boards/esc_carrier.html) through a horizontal microfit connector. The TPS568215 features integrated MOSFETs, a default soft-start of 1ms, and a maximum output current of 8A. A LTC4352 Ideal Diode uses an external mosfet to provide reverse polarity protection and shorting safeguards via a fast turn-off, and status LEDs indicate safe power input. Power monitoring is provided by two integrated current sensors: the ACS712 is a hall-effect based current sensor IC with an optimized range of ±30A, converting the magnetic field generated to a proportional voltage output. The INA226 is a shunt-based power monitor interfaced through I2C, sensing current, voltage, and power. The analog output and I2C lines are routed to the M.2 connector, to be analyzed by the MUREX Carrier Board.
 
