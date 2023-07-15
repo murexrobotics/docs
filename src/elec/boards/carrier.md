@@ -55,7 +55,9 @@ CM4 Specific Features:
 
 ### To Do
 
-- [X] Add ADS1015 address silk to back
+- [ ]  Flip ADS1015 SDA and SCL
+- [ ]  Switch I2C lines to line 1
+- [ ]  Fix USB (temporary fix is to remove R10)
 - [ ] Amplification required for leak detection matrix? (still unsure)
 - [ ] External magnetics for Ethernet
   - [X] Work in progress
