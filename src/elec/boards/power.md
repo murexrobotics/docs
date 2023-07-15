@@ -4,7 +4,7 @@
 
 ![Raytraced Render](../../img/power_board_v1.1_release.png)
 
-The MUREX Power Board the world's smallest dual-output buck converter, reducing an input voltage of 12V to 5V and 3V3 respectively. Integrated current sensors and circuit protection combined with microscopic physical dimensions measuring 40mm x 56mm (1.6″ x 2.2″) renders the power board an elite feature of MUREX electronics.
+The MUREX Power Board is the world's smallest dual-output buck converter, reducing an input voltage of 12V to 5V and 3V3 respectively. Integrated current sensors and circuit protection combined with microscopic physical dimensions measuring 40mm x 56mm (1.6″ x 2.2″) renders the power board an elite feature of MUREX electronics.
 
 ## Detailed Description
 
