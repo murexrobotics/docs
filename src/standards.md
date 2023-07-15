@@ -2,6 +2,8 @@
 
 ## Commit Standards
 
+> *Mainly applicable to programming and electrical, less so for mechanical.*
+
 Inspired by [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) and [ZMK](https://www.zmk.dev)
 
 ```txt
