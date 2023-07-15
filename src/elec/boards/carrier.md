@@ -23,8 +23,7 @@ CM4 Specific Features:
 
 ### Current Status
 
-- `V1.1` complete
-  - Waiting arrival from fabricator
+- `V1.1` complete, partially tested
 - New revisions for `V1.2` in progress
 
 ### Integrated Sensors/ICs
