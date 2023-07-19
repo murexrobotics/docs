@@ -12,8 +12,16 @@ In following such mottos, MUREX Robotics Electrical focuses on making everything
 ## Required Software
 
 - KiCAD Nightly
+  - Version 7.99
+    - [macOS](https://downloads.kicad.org/kicad/macos/explore/nightlies)
+    - [Windows](https://downloads.kicad.org/kicad/windows/explore/nightlies)
+    - [Linux](https://www.kicad.org/download/linux/)
+      - Install Nightly version
+    - We do not use any other PCB software like Eagle (R.I.P) or Altium Designer.
 - CAD Software
+  - Suggested: PTC OnShape, Fusion 360, FreeCAD, etc.
 - Text Editor
+  - Suggested: Visual Studio Code, Sublime Text, etc.
 - Git/GitHub
 
 ## Design Process
@@ -30,6 +38,10 @@ In following such mottos, MUREX Robotics Electrical focuses on making everything
 10. Receive PCB and stress testing
 11. Integration into other parts of the tech stack
 
+## Explanations
+
+MUREX Robotics Electrical has a high but very rewarding learning curve. Below explains the basis of the work we do. ***It is not required that you understand the material, this is for you to learn. We do not expect you to know anything.***
+
 ## Common Terms
 
 - Volt: unit of electric potential difference
@@ -37,6 +49,7 @@ In following such mottos, MUREX Robotics Electrical focuses on making everything
 - Ohm: unit of electric resistance
 - Ohm's Law: *V = IR* or *U = IR* for US and EU respectively. This law relates resistance, current and voltage.
   - [Khan Academy Ohm's Law Explanation](https://www.khanacademy.org/science/physics/circuits-topic/circuits-resistance/v/circuits-part-1)
+- Voltage Drop: TODO
 - Short: unexpected and potentially dangerous connection between two locations in a circuit
 - Route/Jump/Bridge: purposeful connection between two locations in a circuit
 - PCB: A printed circuit board connects electrical components together usually on a piece of fiberglass (FR4). MUREX uses KiCAD to make all its PCBs. All the basics and terminology for PCBs can be learned through Shawn Hymel's Digikey KiCAD tutorial series
@@ -58,6 +71,7 @@ In following such mottos, MUREX Robotics Electrical focuses on making everything
   - [... and Desolder](https://www.youtube.com/watch?v=N_dvf45hN6Y&pp=ygUVY29saW4ncyBsYWIgc29sZGVyaW5n)
   - [... and SMD solder](https://www.youtube.com/watch?v=QzoPxvIM2qE&pp=ygUVY29saW4ncyBsYWIgc29sZGVyaW5n)
   - and honestly, watch all of Colin's Lab's videos. They're great.
+  - Soldering takes practice. A lot of practice.
 - Electrical connector: TODO
 - Wire to board: TODO
 - Board to board: TODO
@@ -78,7 +92,7 @@ In following such mottos, MUREX Robotics Electrical focuses on making everything
   - [Network Chuck Explains IP Addresses](https://www.youtube.com/watch?v=5WfiTHiU4x8)
   - This is a pretty big topic. It's better explained through demos.
 - OFDM (powerline adapter): best explained by [Linus](https://www.youtube.com/watch?v=ywQeJCa3jl8)
-  - In particular, OFDM is orthagonal frequency division multiplexing. We use this to essentially "encode" ethernet through a pair of wire at high frequencies. Through two OFDM devices on either end of an ethernet connector, the end devices have no difference, but the communication process is much simplified.
+  - In particular, OFDM is orthogonal frequency division multiplexing. We use this to essentially "encode" ethernet through a pair of wire at high frequencies. Through two OFDM devices on either end of an ethernet connector, the end devices have no difference, but the communication process is much simplified.
 - Raspberry Pi: the Raspberry Pi Foundation explains flawlessly. [Take a look at their docs](https://www.raspberrypi.com/documentation/)
   - [They offer a lineup of products](https://www.raspberrypi.com/products/)
 - JLCPCB: "Founded in 2006, JLCPCB has been at the forefront of the PCB industry. With over 15-year continuous innovation and improvement based on customers' need, we have been growing fast, and becoming a leading global PCB manufacturer, who provides the rapid production of high-reliability and cost-effective PCBs and creates the best customer experience in the industry."
@@ -90,15 +104,30 @@ In following such mottos, MUREX Robotics Electrical focuses on making everything
 - USB: universal serial bus is a physical and software protocol defining how devices communicate with each other. It is important to know the different sizes for USB, and how it works under the hood.
   - [I dare you to read this whitepaper by Cypress/Infineon](https://www.infineon.com/dgdl/Infineon-AN57294_USB_101_An_Introduction_to_Universal_Serial_Bus_2.0-ApplicationNotes-v09_00-EN.pdf?fileId=8ac78c8c7cdc391c017d072d8e8e5256)
 - Neopixel: [Read Adafruit's Überguide](https://learn.adafruit.com/adafruit-neopixel-uberguide/the-magic-of-neopixels)
+- MEMS Sensor: TODO
+- Gas Sensor: TODO
+- PWM Driver: TODO
+- ADC/DAC: TODO
 
 ## MUREX-specific Terms
 
-- Carrier: TODO
-- ESC Carrier: TODO
-- Power Board: TODO
-- LVX: TODO
+- Carrier - Byran Huang '25: Powered by a Raspberry Pi CM4, acting as the control hub for the ROV. Learn more [here](../boards/carrier.md)
+- ESC Carrier - Celine Zhang '26: TODO
+- Power Board - Max Liu '26: TODO
+- ESC - Byran Huang '25: TODO
+- LVX - RAKWireless: TODO
 - MORE TODOs
+
+## Writing Docs
+
+It is expected of every MUREX Robotics Electrical member to write documentation in a timely manner. The "docs" are hosted on mdBook, which is written in Markdown and deployed to GitHub Pages through GitHub Actions.
+
+- When adding docs, it should outline any work you have done, and any specialized knowledge required. Pictures are good.
+- In writing any docs, if there is precedent, follow it.
+- If there is not, find precedent online and follow that.
+- All prose must be at least semi-formal and clearly written, with the assumption that the reader has intermediate electronics knowledge.
+- Markdown must follow regular linting.
 
 ## Summary
 
-This is not the end of your learning, only to jumpstart the beginning. 99% of knowledge comes from failing. This is especially true in electronics. Nobody can call themselves a master without releasing some [magic smoke](https://en.wikipedia.org/wiki/Magic_smoke). All the links listed are good resources to explore further. The YouTube channels are basically MUREX Electrical's subscription feed. We strongly encourage you to do the same.
+This is not the end of your learning, only to jumpstart the beginning. 99% of knowledge comes from failing. This is especially true in electronics. Nobody can call themselves a master without having released some [magic smoke](https://en.wikipedia.org/wiki/Magic_smoke). All the links listed above are excellent resources to explore further. The YouTube channels are basically MUREX Electrical's subscription feed. We strongly encourage you to do the same.
