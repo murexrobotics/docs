@@ -72,6 +72,7 @@ MUREX Robotics Electrical has a high but very rewarding learning curve. Below ex
   - [... and SMD solder](https://www.youtube.com/watch?v=QzoPxvIM2qE&pp=ygUVY29saW4ncyBsYWIgc29sZGVyaW5n)
   - and honestly, watch all of Colin's Lab's videos. They're great.
   - Soldering takes practice. A lot of practice.
+- BOM: a bill of materials TODO
 - Electrical connector: TODO
 - Wire to board: TODO
 - Board to board: TODO
@@ -127,6 +128,32 @@ It is expected of every MUREX Robotics Electrical member to write documentation 
 - If there is not, find precedent online and follow that.
 - All prose must be at least semi-formal and clearly written, with the assumption that the reader has intermediate electronics knowledge.
 - Markdown must follow regular linting.
+
+## Git Commits
+
+Once you've done some work, either in writing documentation or working in KiCAD, how do you commit it? Good question. To make sure everyone's on the same page, we follow a [commit standard](../../standards.md). Commits are incredibly important – think of them as chapters in a book. They track changes over time, meaning incremental updates are much better than a big one. For example:
+
+```txt
+Feat: initialized project
+Feat: initial schematic design
+Feat: finalized schematic design
+Feat: initial component layout
+Fix: fixing component layout
+Feat: routing
+Fix: fixes according to feedback
+Feat: routing v2
+Feat: routing v3
+Feat: finalized routing
+Feat: board file production ready
+Feat: optimized BOM
+Feat: tape-out stage
+
+... is a lot better than
+
+Feat: <insert project name> done
+```
+
+Commit standards apply to all commits on Git to the MUREX organization. Since we're a pretty small team, we don't implement any PR system or much CI/CD for those who come from a software development background, but a good commit history is important.
 
 ## Summary
 
