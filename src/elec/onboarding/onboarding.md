@@ -49,7 +49,7 @@ MUREX Robotics Electrical has a high but very rewarding learning curve. Below ex
 - Ohm: unit of electric resistance
 - Ohm's Law: *V = IR* or *U = IR* for US and EU respectively. This law relates resistance, current and voltage.
   - [Khan Academy Ohm's Law Explanation](https://www.khanacademy.org/science/physics/circuits-topic/circuits-resistance/v/circuits-part-1)
-- Voltage Drop: TODO
+- Voltage Drop: the decrease in voltage between two points (e.g all or part of a circuit) due to impedance
 - Short: unexpected and potentially dangerous connection between two locations in a circuit
 - Route/Jump/Bridge: purposeful connection between two locations in a circuit
 - PCB: A printed circuit board connects electrical components together usually on a piece of fiberglass (FR4). MUREX uses KiCAD to make all its PCBs. All the basics and terminology for PCBs can be learned through Shawn Hymel's Digikey KiCAD tutorial series
@@ -72,11 +72,10 @@ MUREX Robotics Electrical has a high but very rewarding learning curve. Below ex
   - [... and SMD solder](https://www.youtube.com/watch?v=QzoPxvIM2qE&pp=ygUVY29saW4ncyBsYWIgc29sZGVyaW5n)
   - and honestly, watch all of Colin's Lab's videos. They're great.
   - Soldering takes practice. A lot of practice.
-- BOM: a bill of materials TODO
-- Electrical connector: TODO
-- Wire to board: TODO
-- Board to board: TODO
-- Wire to wire: TODO
+- Electrical connector: How do you form reliable electrical connections between circuits? You guessed it –– an electrical connector. There are mainly 3 types:
+  - Wire to board: connects wires to PCBs
+  - Board to board: connects PCBs to PCBs
+  - Wire to wire: ...connects wires to wires...
 
 ## Robotics-Specific Terms
 
