@@ -49,7 +49,7 @@ MUREX Robotics Electrical has a high but very rewarding learning curve. Below ex
 - Ohm: unit of electric resistance
 - Ohm's Law: *V = IR* or *U = IR* for US and EU respectively. This law relates resistance, current and voltage.
   - [Khan Academy Ohm's Law Explanation](https://www.khanacademy.org/science/physics/circuits-topic/circuits-resistance/v/circuits-part-1)
-- Voltage Drop: the decrease in voltage between two points (e.g all or part of a circuit) due to impedance
+- Voltage Drop: the decrease in voltage between two points (e.g all or part of a circuit) due to resistance
 - Short: unexpected and potentially dangerous connection between two locations in a circuit
 - Route/Jump/Bridge: purposeful connection between two locations in a circuit
 - PCB: A printed circuit board connects electrical components together usually on a piece of fiberglass (FR4). MUREX uses KiCAD to make all its PCBs. All the basics and terminology for PCBs can be learned through Shawn Hymel's Digikey KiCAD tutorial series
@@ -79,8 +79,12 @@ MUREX Robotics Electrical has a high but very rewarding learning curve. Below ex
   - Wire to board: connects wires to PCBs
   - Board to board: connects PCBs to PCBs
   - Wire to wire: ...connects wires to wires...
+- Breakout/Breaking [component] out: making a pin or function (usually of an IC) easier to access through a connector (usually 2.54 mm pitch header pins)
+- Production files: the complete set of files generated from an EDA (like KiCAD), usually with a Gerber zip and BOM/CPL files if necessary.
+  - Check [PCB Design](./pcb-design.md) for more info
 
 How do you get started with electronics? In the modern, Internet-equipped days, YouTube is an amazing place to start.
+
 - [Great Scott](https://www.youtube.com/playlist?list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0)
 - [Colin's Lab](https://www.youtube.com/playlist?list=PLECC9C55893C696A7)
 - [Electroboom](https://www.youtube.com/@ElectroBOOM)
@@ -128,11 +132,16 @@ How do you get started with electronics? In the modern, Internet-equipped days, 
 
 ## MUREX-specific Terms
 
-- Carrier - Byran Huang '25: Powered by a Raspberry Pi CM4, acting as the control hub for the ROV. Learn more [here](../boards/carrier.md)
-- ESC Carrier - Celine Zhang '26: TODO
-- Power Board - Max Liu '26: TODO
-- ESC - Byran Huang '25: TODO
-- LVX - RAKWireless: TODO
+- PCB Terminology:
+  - Carrier - Byran Huang '25: Powered by a Raspberry Pi CM4, acting as the control hub for the ROV. Learn more [here](../boards/carrier.md)
+  - ESC Carrier - Celine Zhang '26: TODO
+  - Power Board - Max Liu '26: TODO
+  - ESC - Byran Huang '25: Powered by RP2040s, acting as the driving board for controlling the thrusters. They handle a lot of current. Learn more [here](../boards/ecs.md)
+  - LVX - RAKWireless: TODO
+- Conversational Terminology:
+  - Altan: the magic word to yell when the code does not work as expected. Duration only lasts for the 23-24 and 24-25 season.
+  - Throwing: when somebody makes an accidental mistake that results in unwanted circumstances.
+  - Calcs: not calculus (although it can be). It simply refers to any important calculation/verification that is necessary for a circuit, such as: trace thickness of a power network, impedance calculations for a high frequency trace, voltage drop across a system, or even just a simple calculation of whether a resistor will blow up given a expected load.
 - MORE TODOs
 
 ## Writing Docs
