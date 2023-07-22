@@ -25,5 +25,8 @@
     - [Differential Pairs](./elec/pcb/differential_pairs.md)
   - [Wiring](./elec/wiring/wiring.md)
     - [Power Wiring](./elec/wiring/power_wiring.md)
+  - [Onboarding](./elec/onboarding/onboarding.md)
+    - [Welcome](./elec/onboarding/welcome.md)
+    - [PCB Design](./elec/onboarding/pcb-design.md)
 
 - [Mechanical](./mech/mech.md)
