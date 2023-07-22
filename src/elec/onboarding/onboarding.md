@@ -7,7 +7,7 @@ Welcome to MUREX Robotics Electrical. We are a subgroup focused on integration, 
 > *Think Different*\
 > *Don't Throw (joking joking)*
 
-In following such mottos, MUREX Robotics Electrical focuses on making everything custom, highly integrated, and making it as well as we possibly can. By relying on minimal COTS parts, we can vertically integrate all aspects of the robot, and interestingly, minimize cost.
+In following such mottos, MUREX Robotics Electrical focuses on making everything custom, highly integrated, and doing it as well as we possibly can. By keeping COTS parts to a minimum, we vertically integrate all aspects of the robot, and surprisingly, minimize cost.
 
 ## Required Software
 
@@ -17,7 +17,7 @@ In following such mottos, MUREX Robotics Electrical focuses on making everything
     - [Windows](https://downloads.kicad.org/kicad/windows/explore/nightlies)
     - [Linux](https://www.kicad.org/download/linux/)
       - Install Nightly version
-    - We do not use any other PCB software like Eagle (R.I.P) or Altium Designer.
+    - We do not use any other PCB software like EasyEDA, Eagle (R.I.P) or Altium Designer.
 - CAD Software
   - Suggested: PTC OnShape, Fusion 360, FreeCAD, etc.
 - Text Editor
@@ -60,10 +60,13 @@ MUREX Robotics Electrical has a high but very rewarding learning curve. Below ex
 - Surface-mount technology (SMT): Device that mounts on the surface of a PCB. Much smaller, harder to solder by hand. They usually cost less.
 - Capacitor (cap/C): Device used to store electric charge on two dielectric plates, usually ceramic or electrolytic based. Common shorthand is a *"cap"*. Caps are commonly used in circuits to decouple or bypass power or signals.
   - [Decoupling capacitor basics](https://lcamtuf.substack.com/p/the-basics-of-decoupling-capacitors)
-  - [Great Scott's Explanation of Capacitors](https://www.youtube.com/watch?v=otQGdPLyF3w)
+  - [Great Scott Explains Capacitors](https://www.youtube.com/watch?v=otQGdPLyF3w)
 - Resistor (R): Device used to resist electric flow.
+  - [Great Scott Explains Resistors](https://www.youtube.com/watch?v=7w5I-KbJ1Sg)
 - Inductor (L): Device used to store electric charge in a magnetic field.
+  - [Great Scott Explains Inductors](https://www.youtube.com/watch?v=kdrP9WbJIb8)
 - MOSFET: metal-oxide semiconductor field-effect transistors are "digital switches". There are 3 pins on a MOSFET. If the "gate" pin has a voltage applied, the other two pins become conductive.
+  - [Great Scott Explains MOSFETs](https://www.youtube.com/watch?v=o4_NeqlJgOs)
 - Multimeter: OK, you've learned so much about electronics already. In a circuit, how do you test to see if it actually works? Use a multimeter.
   - [Colin's Lab Explains How to Use a Multimeter](https://www.youtube.com/watch?v=rPGoMbVSUu8&pp=ygUWY29saW4ncyBsYWIgbXVsdGltZXRlcg%3D%3D)
 - Soldering: the process of melting metal, usually Tin and Gold to create metal joins. MUREX strives to be environmentally safe, thus we work in compliance to [RoHS](https://environment.ec.europa.eu/topics/waste-and-recycling/rohs-directive_en).
@@ -77,13 +80,19 @@ MUREX Robotics Electrical has a high but very rewarding learning curve. Below ex
   - Board to board: connects PCBs to PCBs
   - Wire to wire: ...connects wires to wires...
 
+How do you get started with electronics? In the modern, Internet-equipped days, YouTube is an amazing place to start.
+- [Great Scott](https://www.youtube.com/playlist?list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0)
+- [Colin's Lab](https://www.youtube.com/playlist?list=PLECC9C55893C696A7)
+- [Electroboom](https://www.youtube.com/@ElectroBOOM)
+
 ## Robotics-Specific Terms
 
 - [Blue Robotics](https://bluerobotics.com/learn/technical-reference/) is a company specializing in underwater robotics. Basically all teams use their thrusters, and most teams use their enclosures and ESCs. Their products are extremely robust and easy to use, but at a high cost and unspecialized towards MATE robotics. As an educational team, we receive a 15% discount.
 - BLDC: brushless DC motor
   - [Great Scott Explains](https://www.youtube.com/watch?v=UteZJ_7C4Mg)
   - [Animation](https://www.youtube.com/watch?v=bCEiOnuODac)
-- T200: Blue Robotics's latest underwater thruster offering. It is a BLDC, meaning it has high torque and speed, but requires an ESC to control it.
+- T200: Blue Robotics's latest underwater thruster offering. There is a motor and a propeller, which displaces water through its blades, thus generating thrust. It is a BLDC, meaning it has high torque and speed, but requires an ESC to control it.
+  - [Rusty (CEO of Blue Robotics) Introduces T200 Thrusters](https://www.youtube.com/watch?v=Q2pI3XF_XU4)
 - ESC: an electronic speed controller, as the name implies, controls the speed of a motor. The reason an ESC is required is because BLDCs don't take a DC current. They actually take 3 phases as input.
   - [Great Scott DIY ESC](https://www.youtube.com/watch?v=W9IHEqlGG1s)
   - [Texas Instruments Whitepaper](https://www.ti.com/lit/an/slvaes1a/slvaes1a.pdf?ts=1687900715464)
@@ -95,13 +104,21 @@ MUREX Robotics Electrical has a high but very rewarding learning curve. Below ex
   - In particular, OFDM is orthogonal frequency division multiplexing. We use this to essentially "encode" ethernet through a pair of wire at high frequencies. Through two OFDM devices on either end of an ethernet connector, the end devices have no difference, but the communication process is much simplified.
 - Raspberry Pi: the Raspberry Pi Foundation explains flawlessly. [Take a look at their docs](https://www.raspberrypi.com/documentation/)
   - [They offer a lineup of products](https://www.raspberrypi.com/products/)
+  - [Fireship Explained in 100s](https://www.youtube.com/watch?v=eZ74x6dVYes)
+
 - JLCPCB: "Founded in 2006, JLCPCB has been at the forefront of the PCB industry. With over 15-year continuous innovation and improvement based on customers' need, we have been growing fast, and becoming a leading global PCB manufacturer, who provides the rapid production of high-reliability and cost-effective PCBs and creates the best customer experience in the industry."
   - Our PCB and PCBA (component assembly) contractor of choice
+  - [Strange Parts Tours JLCPCB Factory](https://www.youtube.com/watch?v=ljOoGyCso8s)
 - I2C: a synchronous, multi-master/multi-slave (controller/target), packet switched, single-ended, serial communication bus. It is widely used for attaching lower-speed peripheral ICs to processors and microcontrollers in short-distance, intra-board communication. Almost all sensors use I2C to communicate
+  - [nandland Explains I2C](https://www.youtube.com/watch?v=jFtr0Ha5f-c&t)
+  - [Great Scott Explains I2C](https://www.youtube.com/watch?v=_fgWQ3TIhyE)
 - UART: [best explained by wikipedia](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter)
+  - [Great Scott Explains UART](https://www.youtube.com/watch?v=yFQS_TQ4948)
 - Buck Converter/Voltage Regulator/Step Down Converter: Once again, a complex topic best explained by other sources such as [Wikipedia](https://en.wikipedia.org/wiki/Buck_converter). In short, it uses a circuit to step down a higher voltage (potential) to a lower voltage (potential). The opposite of a buck converter is booster converter.
   - [Great Scott Explains](https://www.youtube.com/watch?v=m8rK9gU30v4)
 - USB: universal serial bus is a physical and software protocol defining how devices communicate with each other. It is important to know the different sizes for USB, and how it works under the hood.
+  - [USB Connector Sizing](https://www.youtube.com/watch?v=pIZREjck9jg&t)
+  - [Really Good Video on USB](https://www.youtube.com/watch?v=HbQ6q3skZgw)
   - [I dare you to read this whitepaper by Cypress/Infineon](https://www.infineon.com/dgdl/Infineon-AN57294_USB_101_An_Introduction_to_Universal_Serial_Bus_2.0-ApplicationNotes-v09_00-EN.pdf?fileId=8ac78c8c7cdc391c017d072d8e8e5256)
 - Neopixel: [Read Adafruit's Überguide](https://learn.adafruit.com/adafruit-neopixel-uberguide/the-magic-of-neopixels)
 - MEMS Sensor: TODO
