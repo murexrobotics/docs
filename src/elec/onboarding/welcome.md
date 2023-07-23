@@ -7,7 +7,11 @@ Welcome to MUREX Robotics Electrical. We are a subgroup focused on integration, 
 > *Think Different*\
 > *Don't Throw (joking joking)*
 
-In following such mottos, MUREX Robotics Electrical focuses on making everything custom, highly integrated, and doing it as well as we possibly can. By keeping COTS parts to a minimum, we vertically integrate all aspects of the robot, and surprisingly, minimize cost.
+In following such mottos, MUREX Robotics Electrical focuses on making everything custom, highly integrated, and doing it as well as we possibly can. By keeping COTS parts to a minimum, we vertically integrate all aspects of the robot, minimize space, and surprisingly, minimize cost.
+
+## Explanations
+
+MUREX Robotics Electrical has a high but very rewarding learning curve. Below explains the basis of the work we do. ***It is not required that you understand the material, this is for you to learn. We do not expect you to know anything when you first join.***
 
 ## Required Software
 
@@ -37,10 +41,6 @@ In following such mottos, MUREX Robotics Electrical focuses on making everything
 9. Production with fabricator (usually JLCPCB)
 10. Receive PCB and stress testing
 11. Integration into other parts of the tech stack
-
-## Explanations
-
-MUREX Robotics Electrical has a high but very rewarding learning curve. Below explains the basis of the work we do. ***It is not required that you understand the material, this is for you to learn. We do not expect you to know anything.***
 
 ## Common Terms
 
@@ -125,10 +125,12 @@ How do you get started with electronics? In the modern, Internet-equipped days, 
   - [Really Good Video on USB](https://www.youtube.com/watch?v=HbQ6q3skZgw)
   - [I dare you to read this whitepaper by Cypress/Infineon](https://www.infineon.com/dgdl/Infineon-AN57294_USB_101_An_Introduction_to_Universal_Serial_Bus_2.0-ApplicationNotes-v09_00-EN.pdf?fileId=8ac78c8c7cdc391c017d072d8e8e5256)
 - Neopixel: [Read Adafruit's Überguide](https://learn.adafruit.com/adafruit-neopixel-uberguide/the-magic-of-neopixels)
-- MEMS Sensor: TODO
-- Gas Sensor: TODO
-- PWM Driver: TODO
-- ADC/DAC: TODO
+- MEMS Sensor: A MEMS (Micro-Electro-Mechanical Systems) sensor is a miniaturized device that combines electronic components with mechanical elements on a silicon substrate. It can detect and measure various physical phenomena, such as motion, pressure, temperature, and environmental changes, making it a fundamental component in many modern electronic devices and applications.
+- Gas Sensor: A gas sensor, like the BME680, detects changes in gas in the surrounding environment, such as pressure, VOCs, temperature, humidity, etc. The operating principle is MEMS.
+- PWM: PWM stands for Pulse Width Modulation, a technique used in electronics to control the average power delivered to a load. It involves rapidly switching a signal on and off with varying duty cycles, where the ratio of the on-time to the off-time determines the effective power output on a device, either directly (like brushed DC motors) or further processed (like ESCs or servos).
+- PWM Driver: An IC that sends PWM pulses to a device.
+- Analog Data: Usually data is digital (0 or 1). However, analog data can be anywhere between fully on or off (this *is NOT quantum mechanics*). For example, a sensor that varies in voltage depending on stimuli can be read by an ADC.
+- ADC/DAC: ADC = analog to digital converter, and DAC = digital to analog converter. Analog to digital converters can read analog input and convert it to be read by digital microcontrollers. Vice versa with DACs. They take digital input, then output analog signals, usually to headphones. ADCs are much more important to our use case.
 
 ## MUREX-specific Terms
 
@@ -180,6 +182,27 @@ Feat: <insert project name> done
 
 Commit standards apply to all commits on Git to the MUREX organization. Since we're a pretty small team, we don't implement any PR system or much CI/CD for those who come from a software development background, but a good commit history is important.
 
+## Attempt the Impossible
+
+Going to back our "mission statement"... (it's not really a mission statement, more a motivational quote)
+
+> *Attempt the impossible*
+
+What does this mean? Now that you have read through what MUREX Robotics Electrical (or *elec*) is all about and equipped with technical expertise, we can finally say what the true meaning is.
+
+***Attempt the impossible***: We do it the best way possible. If pre-built parts or breakout boards don't cut it, we don't use it. If a processor isn't powerful enough, we don't use it. If a board isn't small enough, we make it smaller. No matter how difficult it may be to accomplish, we will follow through. No matter how hard it is. Things don't always go your way. No matter how hard you try to perfect your schematic, your PCB layout, your system integration, it still might not work out. It's "impossible", a non-MUREX Robotics Electrical member might say. We accept it as the process. In the end, we will have achieved something others might have called "impossible". But the achievement only comes through endless, motivated attempts at the impossible.
+
 ## Summary
 
 This is not the end of your learning, only to jumpstart the beginning. 99% of knowledge comes from failing. This is especially true in electronics. Nobody can call themselves a master without having released some [magic smoke](https://en.wikipedia.org/wiki/Magic_smoke). All the links listed above are excellent resources to explore further. The YouTube channels are basically MUREX Electrical's subscription feed. We strongly encourage you to do the same.
+
+*Always attempting the impossible,*\
+Members:
+
+- Byran Huang '25
+- Max Liu '26
+- Celine Zhang '26
+
+Emeriti:
+
+- Chaney Hollis '23
