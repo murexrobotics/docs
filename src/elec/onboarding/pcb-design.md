@@ -12,7 +12,7 @@ PCB Design is the entire process of making a PCB, from initial schematic to manu
     - Assign reference designators (REFDES) and footprints to each component
 3. Design your PCB
     - Update design constraints based on fabricator PCB specifications
-    - Untangle your "ratsnest" by shuffling and rotating parts around
+    - Untangle your ratsnest by shuffling and rotating parts around
     - Route your board by placing traces between components, adding vias when neccecary
     - Add any copper pours (typically GND or PWR planes)
     - Double-check circuitry and clearance. KiCAD's Design Rules Checker (DRC) can be helpful in detecting any design violations
@@ -30,42 +30,47 @@ PCB Design is the entire process of making a PCB, from initial schematic to manu
 7. PCB Testing
     - Once you receive the board, solder any components have haven't been assembled by the fabricator
     - Conduct vigourous testing
+    - Summon Altan for any embedded programming
 
 Remember, if you board doesn't work first try, that's okay. Try to identify where the problems are and fix them in the second revision. PCBs can cost a hefty amount however, so make sure you do your best to get everything correct first try.
 
 ## Common Terms
 
-- SCHEMATIC DESIGN TODO TODTODTODOTDOTDOT
-    - Symbol:
-    - REFDES:
-    - Pin:
-    - Pinout:
-    - Label:
-    - Datasheet:
-    - Schematic Heirarchy:
-- PCB LAYOUT TODO TODTODOTDOT
-    - Ratsnest:
-    - Layer:
-    - Trace:
-    - Zone: 
-    - Via:
-    - Pad:
-    - Clearance:
-    - Mounting Hole:
-    - Board Outline:
-    - Silkscreen:
-- PRODUCTION TODO TODTODOTDOTDOT
+- SCHEMATIC DESIGN
+    - Symbol: Simple diagrams that represent real world components, e.g resistors, ICs
+    - REFDES: (Reference Designator) Identifies a component. Usually a letter followed by a number e.g R13 (Resistor number 13)
+    - Pin: An point of connection on a component
+    - Pinout: The arrangement and functionality of each pin on a component
+    - Label: A good way to not route wires all around your sheet. Labels with the same name are electrically connected with each other
+        - GND (Ground): In PCB Design, GND usually does NOT refer to literally sticking a wire into the Earth. Instead, it's an easy way to refer to the common return path of electricity, like the negative terminal of a power supply
+    - Datasheet: Your textbook for understanding a component, written by manufacturers
+    - Schematic Heirarchy: A better way to design complex schematics. Your main sheet is composed of individual "block" symbols that have their own sheets to represent subcomponents
+- PCB LAYOUT
+    - Ratsnest: a messy "nest" showing electrical connections between components when there are no traces yet
+    - Layer: In KiCAD, layers can refer to physical copper layers, or graphical layers like silkscreen
+    - Trace: A conductive copper track with a chosen width
+    - Copper Pour: An area that is filled with copper
+    - Via: A small drilled hole that creates an electrical connection between layers
+    - Pad: a small area of metal for pins to be soldered onto
+    - Footprint: Specific arrangement of pads for a component to be soldered onto
+    - Clearance: Shortest distance allowed between two copper regions e.g traces, pours
+    - Mounting Hole: Drilled holes that secure the board with an enclosure
+    - Board Outline: Determines the boundaries of your physical PCB. Defined in the edge.cuts layer in KiCAD
+    - Silkscreen: Topmost layer of a PCB
+- PRODUCTION
     - Fabricator: Company that fabricates, or transcribes, your PCB design onto the physical board. PCB Fabricators are often capable of manufacturing as well, meaning that they can also assemble components that are in their libraries for you
     - Gerber files: Industry standard file for describing each PCB layer to the manufacturer
     - BOM: Bill of materials. A BOM typically lists out all the components required, the associated REFDES, footprint names, and the manufacturer part number
     - CPL: Component placement list. Details the layer, position, and orientation of each component.
-    - TODO
 
-- TODO TODO TODO TODO TODO TODTODOTDOTDOTODTODTO
+## Common PCB Design Considerations TODOTDOTODTODOTDOT
 
-## Common PCB Design Guidelines
-
-- TODOTDOTDOTODTODOT
+- Trace width and length: Wide traces have less resistance and can handle more current. Short traces also decrease resistance and minimize power loss. Therefore, high power traces should be wide and short
+- GND Pours: TODOTDO
+- Clearance:
+- Thermal Issues:OTDOTOD
+- Impedance matching:
+- Mounting:DTPDOTDOTODTODOT
 
 ## Summary
 
