@@ -1,0 +1,72 @@
+# PCB Design
+
+PCB Design is the entire process of making a PCB, from initial schematic to manufactured board! It's not easy, but incredibly rewarding when you finally get to admire the glistening PCB in your palms. Again, all the basics and terminology for PCBs can be learned through [Shawn Hymel's Digikey KiCAD tutorial series](https://www.youtube.com/watch?v=vaCVh2SAZY4&list=PL3bNyZYHcRSUhUXUt51W6nKvxx2ORvUQB), but here's our own take.
+
+## PCB Design Process
+
+1. Research and determine main components. What ICs will be on the board? What connectors will be used? Etc.
+2. Design your schematic 
+    - Import any component symbols, footprints, and 3D models that are not in the default KiCAD library
+    - Design circuitry
+    - Follow component datasheets to understand the pinout and typical application guidelines
+    - Assign reference designators (REFDES) and footprints to each component
+3. Design your PCB
+    - Update design constraints based on fabricator PCB specifications
+    - Untangle your "ratsnest" by shuffling and rotating parts around
+    - Route your board by placing traces between components, adding vias when neccecary
+    - Add any copper pours (typically GND or PWR planes)
+    - Double-check circuitry and clearance. KiCAD's Design Rules Checker (DRC) can be helpful in detecting any design violations
+    - Draw your board outline
+    - Rinse and repeat until satisfied! PCB Design is an iterative process. Rerouting the board often saves precious space and cements the designer's understanding of the circuitry
+4. Design your silkscreen
+    - The silkscreen is a layer of visible ink on your PCB
+    - Make sure REFDES is visible
+    - Add any other important component information e.g polarities, input, testpoints
+    - Add aesthetics, logos, and inspirational quotes e.g. attempt the impossible, coconut water tastes good etc.
+5. Tapeout verification with the team
+6. Production with Fabricator
+    - Generate your production files. This includes your gerber files, BOM, and CPL. Can be simplified with an external plugin e.g. Bouni
+    - Upload and order your board on the fabricator website! We typically order from JLCPCB
+7. PCB Testing
+    - Once you receive the board, solder any components have haven't been assembled by the fabricator
+    - Conduct vigourous testing
+
+Remember, if you board doesn't work first try, that's okay. Try to identify where the problems are and fix them in the second revision. PCBs can cost a hefty amount however, so make sure you do your best to get everything correct first try.
+
+## Common Terms
+
+- SCHEMATIC DESIGN TODO TODTODTODOTDOTDOT
+    - Symbol:
+    - REFDES:
+    - Pin:
+    - Pinout:
+    - Label:
+    - Datasheet:
+    - Schematic Heirarchy:
+- PCB LAYOUT TODO TODTODOTDOT
+    - Ratsnest:
+    - Layer:
+    - Trace:
+    - Zone: 
+    - Via:
+    - Pad:
+    - Clearance:
+    - Mounting Hole:
+    - Board Outline:
+    - Silkscreen:
+- PRODUCTION TODO TODTODOTDOTDOT
+    - Fabricator: Company that fabricates, or transcribes, your PCB design onto the physical board. PCB Fabricators are often capable of manufacturing as well, meaning that they can also assemble components that are in their libraries for you
+    - Gerber files: Industry standard file for describing each PCB layer to the manufacturer
+    - BOM: Bill of materials. A BOM typically lists out all the components required, the associated REFDES, footprint names, and the manufacturer part number
+    - CPL: Component placement list. Details the layer, position, and orientation of each component.
+    - TODO
+
+- TODO TODO TODO TODO TODO TODTODOTDOTDOTODTODTO
+
+## Common PCB Design Guidelines
+
+- TODOTDOTDOTODTODOT
+
+## Summary
+
+- TODOTODTODTODOTDOTDO

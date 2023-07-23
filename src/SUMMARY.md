@@ -10,6 +10,7 @@
 - [Electrical](./elec/elec.md)
   - [Notes](./elec/notes/notes.md)
     - [May 5th, 2023](./elec/notes/5-5-23.md)
+    - [July 18th, 2023](./elec/notes/7-18-23.md)
   - [Boards](./elec/boards/boards.md)
     - [Carrier](./elec/boards/carrier.md)
     - [ESC](./elec/boards/esc.md)
@@ -25,5 +26,8 @@
     - [Differential Pairs](./elec/pcb/differential_pairs.md)
   - [Wiring](./elec/wiring/wiring.md)
     - [Power Wiring](./elec/wiring/power_wiring.md)
+  - [Onboarding](./elec/onboarding/onboarding.md)
+    - [Welcome](./elec/onboarding/welcome.md)
+    - [PCB Design](./elec/onboarding/pcb-design.md)
 
 - [Mechanical](./mech/mech.md)

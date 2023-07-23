@@ -54,9 +54,11 @@ CM4 Specific Features:
 
 ### To Do
 
-- [ ]  Flip ADS1015 SDA and SCL
-- [ ]  Switch I2C lines to line 1
-- [ ]  Fix USB (temporary fix is to remove R10)
+- [ ] Switch to SK6812 instead of WS2812B
+- [X] Flip ADS1015 SDA and SCL
+- [X] Switch I2C lines to line 1
+- [X] Fix USB (temporary fix is to remove R10)
+- [x] Fix electrolytic capacitor footprint
 - [ ] Amplification required for leak detection matrix? (still unsure)
 - [ ] External magnetics for Ethernet
   - [X] Work in progress
