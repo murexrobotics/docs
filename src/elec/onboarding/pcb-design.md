@@ -5,7 +5,7 @@ PCB Design is the entire process of making a PCB, from initial schematic to manu
 ## PCB Design Process
 
 1. Research and determine main components. What ICs will be on the board? What connectors will be used? Etc.
-2. Design your schematic 
+2. Design your schematic
     - Import any component symbols, footprints, and 3D models that are not in the default KiCAD library
     - Design circuitry
     - Follow component datasheets to understand the pinout and typical application guidelines
