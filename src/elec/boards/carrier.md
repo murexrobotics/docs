@@ -2,7 +2,7 @@
 
 ## Outline
 
-![Raytraced Render](../../img/carrier_board_v1_release.jpg)
+![Raytraced Render](../../img/carrier_board_v1_2_release.jpg)
 
 The MUREX Carrier Board is the world's first open-source CM4-based ROV (robotics) control board.
 
