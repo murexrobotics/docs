@@ -23,8 +23,8 @@ CM4 Specific Features:
 
 ### Current Status
 
-- `V1.1` complete, partially tested
-- New revisions for `V1.2` in progress
+- `V1.1` complete, fully tested
+  - New revisions for `V1.2` in progress
 
 ### Integrated Sensors/ICs
 
@@ -54,13 +54,14 @@ CM4 Specific Features:
 
 ### To Do
 
-- [ ] Switch to SK6812 instead of WS2812B
+- [X] Switch to SK6812 instead of WS2812B
 - [X] Flip ADS1015 SDA and SCL
 - [X] Switch I2C lines to line 1
 - [X] Fix USB (temporary fix is to remove R10)
 - [x] Fix electrolytic capacitor footprint
 - [ ] Amplification required for leak detection matrix? (still unsure)
 - [ ] External magnetics for Ethernet
+  - [ ] Currently deciding
   - [X] Work in progress
 
 ### Changelog
