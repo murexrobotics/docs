@@ -15,6 +15,7 @@ PCB Design is the entire process of making a PCB, from initial schematic to manu
     - Untangle your ratsnest by shuffling and rotating parts around
     - Route your board by placing traces between components, adding vias when neccecary
     - Add any copper pours (typically GND or PWR planes)
+    - Add ground vias
     - Double-check circuitry and clearance. KiCAD's Design Rules Checker (DRC) can be helpful in detecting any design violations
     - Draw your board outline
     - Rinse and repeat until satisfied! PCB Design is an iterative process. Rerouting the board often saves precious space and cements the designer's understanding of the circuitry

@@ -136,7 +136,7 @@ How do you get started with electronics? In the modern, Internet-equipped days, 
 
 - PCB Terminology:
   - Carrier - Byran Huang '25: Powered by a Raspberry Pi CM4, acting as the control hub for the ROV. Learn more [here](../boards/carrier.md)
-  - ESC Carrier - Celine Zhang '26: TODO
+  - ESC Carrier - Celine Zhang '26: Utilizing an NTC thermistor, acting as a mechanism for the modularization and protection of the ESCs. Learn more [here](../boards/esc_carrier.md)
   - Power Board - Max Liu '26: TODO
   - ESC - Byran Huang '25: Powered by RP2040s, acting as the driving board for controlling the thrusters. They handle a lot of current. Learn more [here](../boards/esc.md)
   - LVX - RAKWireless: TODO

@@ -6,6 +6,8 @@
 
 - [Programming](./prog/prog.md)
   - [Communication](./prog/communication.md)
+  - [Onboarding](./prog/onboarding/onboarding.md)
+    - [Welcome](./prog/onboarding/welcome.md)
 
 - [Electrical](./elec/elec.md)
   - [Notes](./elec/notes/notes.md)
