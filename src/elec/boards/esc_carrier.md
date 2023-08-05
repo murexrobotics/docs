@@ -8,7 +8,8 @@ The MUREX ESC Carrier board is designed to modularize ESCs. In the event of a sp
 
 ## Current Status
 
-`V1.0` complete but not yet tested
+- `V1.0` complete, partially tested
+  - Revisions for `V1.1` in progress
 
 ## Detailed Description
 
@@ -73,3 +74,10 @@ The MUREX ESC Carrier board is a two-layer carrier board that can hold up to 8 E
 V1.0:
 
 - Initial design
+
+V1.1:
+
+- Refactored pinout of the TE 5530843-7 connector to bring 12V and GND next to phases
+  - Refactored placement of the components on the right side of the board to accommodate
+- Decreased spacing between ESCs to give the board a smaller footprint
+- Thickened 12V traces on the Molex 43045-0821 Micro-Fit connector
