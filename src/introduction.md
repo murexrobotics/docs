@@ -1,8 +1,17 @@
 # We are MUREX Robotics
 
+![Logo](img/logo.png)
+
 ## About
 
 MUREX (MATE Underwater Robotics At Exeter) is a competitive underwater robotics team based in Exeter, NH. We design and build highly performant ROVs for the MATE ROV Competition under the Ranger division.
+
+Captains:
+
+- Ethan Cheng '24
+- Byran Huang '25
+
+[MUREX roster](https://www.murexrobotics.com/ourteam)
 
 ## Focus
 

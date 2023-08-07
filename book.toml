@@ -7,6 +7,7 @@ title = "MUREX Documentation 2023-2024"
 
 [output.html]
 additional-css = ["./theme/catppuccin.css", "./theme/catppuccin-highlight.css"]
+no-section-label = true
 [output.html.fold]
 enable = true
 

@@ -1,15 +1,20 @@
 # Summary
+# Welcome
 
 - [Introduction](./introduction.md)
 - [Structure](./structure.md)
 - [Standards](./standards.md)
 
-- [Programming](./prog/prog.md)
+# Programming
+
+- [Outline](./prog/outline.md)
   - [Communication](./prog/communication.md)
   - [Onboarding](./prog/onboarding/onboarding.md)
     - [Welcome](./prog/onboarding/welcome.md)
 
-- [Electrical](./elec/elec.md)
+# Electrical
+
+- [Outline](./elec/outline.md)
   - [Notes](./elec/notes/notes.md)
     - [May 5th, 2023](./elec/notes/5-5-23.md)
     - [July 18th, 2023](./elec/notes/7-18-23.md)
@@ -34,6 +39,8 @@
     - [Welcome](./elec/onboarding/welcome.md)
     - [PCB Design](./elec/onboarding/pcb-design.md)
 
-- [Mechanical](./mech/mech.md)
+# Mechanical
+
+- [Outline](./mech/outline.md)
   - [Notes](./mech/notes/notes.md)
     - [August 6th, 2023](./mech/notes/8-6-23.md)

@@ -367,7 +367,8 @@ ul#searchresults span.teaser em {
     box-sizing: border-box;
     -webkit-overflow-scrolling: touch;
     overscroll-behavior-y: contain;
-    background-color: var(--sidebar-bg);
+    /* background-color: var(--sidebar-bg); */
+    border-right: 1px solid var(--sidebar-spacer);
     color: var(--sidebar-fg);
 }
 .sidebar-resizing {
@@ -384,6 +385,11 @@ ul#searchresults span.teaser em {
 }
 .sidebar .sidebar-scrollbox {
     overflow-y: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     padding: 10px 10px;
 }
 .sidebar .sidebar-resize-handle {
@@ -471,6 +477,7 @@ ul#searchresults span.teaser em {
 }
 
 .chapter li.chapter-item > a {
+    padding-left: 10px;
     display:        flex;
     flex-grow:      1;
     flex-shrink:    1;
