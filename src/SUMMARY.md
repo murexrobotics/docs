@@ -11,6 +11,8 @@
   - [Communication](./prog/communication.md)
   - [Onboarding](./prog/onboarding/onboarding.md)
     - [Welcome](./prog/onboarding/welcome.md)
+  - [Components](./prog/components/components.md)
+    - [UART](./prog/components/uart.md)
 
 # Electrical
 
@@ -26,15 +28,15 @@
     - [Networking](./elec/boards/networking/networking.md)
       - [PLC](./elec/boards/networking/plc.md)
       - [Network Switch](./elec/boards/networking/switch.md)
-    - [Vision](./elec/boards/vision/vision.md)
   - [Tech Stack](./elec/tech_stack.md)
-  - [Topside](./elec/topside.md)
   - [PCB](./elec/pcb/pcb.md)
     - [Differential Pairs](./elec/pcb/differential_pairs.md)
   - [Components](./elec/components/components.md)
+    - [Topside](./elec/topside.md)
     - [Power Wiring](./elec/components/power_wiring.md)
     - [IP Ratings](./elec/components/ip_ratings.md)
     - [Servos](./elec/components/servos.md)
+    - [Vision](./elec/components/vision.md)
   - [Onboarding](./elec/onboarding/onboarding.md)
     - [Welcome](./elec/onboarding/welcome.md)
     - [PCB Design](./elec/onboarding/pcb-design.md)
