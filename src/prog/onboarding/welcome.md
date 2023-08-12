@@ -7,7 +7,7 @@ Welcome to MUREX Robotics Programming. We are a subgroup focused producing effic
 > *“An idiot admires complexity, a genius admires simplicity.”*
 ― Terry Davis, Creator of Temple OS
 
-MUREX Programming is hard. We write code in various languages, that run on a veriety of platforms that have access to various types of tooling. We have to make sure that all of these components work together in a way that is efficient and robust. It is easy to get lost in the complexity of the system, but we must always strive to keep things simple. It is impossible to write perfect code, but we must always strive to write good code. No one member of the team is expected to know everything, but we must always strive to learn more.
+MUREX Programming is hard. We write code in various languages, that run on a variety of platforms that have access to various types of tooling. We have to make sure that all of these components work together in a way that is efficient and robust. It is easy to get lost in the complexity of the system, but we must always strive to keep things simple. It is impossible to write perfect code, but we must always strive to write good code. No one member of the team is expected to know everything, but we must always strive to learn more.
 
 ## Required Software
 
@@ -52,15 +52,15 @@ The design process for MUREX Robotics Programming is as follows:
     - Basic doc strings for all functions and classes/ structs.
     - Comments for all non-obvious code.
   - Write the addition of the feature to the Changelog.
-13. Complete a merge request from the other memeber assigned to the task, this will include a final code review.
+13. Complete a merge request from the other member assigned to the task, this will include a final code review.
 
 We follow this process to ensure that all code is well documented, well tested, and well designed. This process is not perfect, and we are always looking for ways to improve it. If you have any suggestions, please let us know. To learn more about our design process, please read our [contribution guide](../contribute/contribute.md).
 
 Every member of the team is treated equally and can request a feature to be implemented. However, the priority of electrical requests will typically be ranked higher then any other subgroup. There is also a special exception for programming members, if you suggest a feature you are responsible for the implementation of the feature. You can work on as many features as you would like, but you are responsible for the implementation of all of them. Failure to do so repeatedly will result in a loss of privileges, eg. you will be demoted to working on less interesting features.
 
-## Communciation
+## Communication
 
-It is essential that communication within a team is streamline, otherwise the effectiveness and efficiency dropps dramatically. Programming as an individual is starckly different from programming as a team. Many new members are not used to programming as a team, our design process and style guides ensure that this process is as seamless as possible. Find out more from out [contribution guide](../contribute/contribute.md).
+It is essential that communication within a team is streamline, otherwise the effectiveness and efficiency drops dramatically. Programming as an individual is starkly different from programming as a team. Many new members are not used to programming as a team, our design process and style guides ensure that this process is as seamless as possible. Find out more from out [contribution guide](../contribute/contribute.md).
 
 ### Work Planning
 
@@ -72,15 +72,15 @@ In such a fast paced environment, it is unusual not to feel stressed/ over-worke
 
 ## Common Terms
 
-### General Knowledege
+### General Knowledge
 
 - Python: A dynamically typed programming language that is very beginner-friendly and has an enormous package ecosystem suited to built almost anything.
   - [Python Documentation](https://www.python.org/doc/)
-- Rust: The only programming language that is both safe, fast and easy to use. It is statically typed and has a very powerful type system. It is a great language for embedded systems and is used in many large projects such as Firefox, Dropbox, and Discord. We use it for all of our embedded systems. It has a high-learning curve but has excelent documentation and a very helpful community. Once rust code works, you will have a hard time trying to break it.
+- Rust: The only programming language that is both safe, fast and easy to use. It is statically typed and has a very powerful type system. It is a great language for embedded systems and is used in many large projects such as Firefox, Dropbox, and Discord. We use it for all of our embedded systems. It has a high-learning curve but has excellent documentation and a very helpful community. Once rust code works, you will have a hard time trying to break it.
 - [The Book](https://doc.rust-lang.org/book/ch01-00-getting-started.html): The official Rust book. It is a great resource for learning Rust.
-- Embedded: A software that runs without an operating system or in a reasource constrained environment.
+- Embedded: A software that runs without an operating system or in a resource constrained environment.
 - [The Embedded Book](https://docs.rust-embedded.org/book/): The official Rust Embedded book. It is a great resource for learning Rust for embedded systems.
-- FFmpeg: a multimedia converter (converts video and/or audio from one file type to another). In MUREX, we use it to send the camera livestream from the Raspberry Pi and play it on the topside computer.
+- FFmpeg: a multimedia converter (converts video and/or audio from one file type to another). In MUREX, we use it to send the camera live-stream from the Raspberry Pi and play it on the topside computer.
 - Ethernet: a family of wired computer networking technologies commonly used in local area networks (LAN), metropolitan area networks (MAN) and wide area networks (WAN). In MUREX, we use it as an intranet between the Raspberry Pi and topside. This requires some knowledge of network management.
   - [Network Chuck Explains IP Addresses](https://www.youtube.com/watch?v=5WfiTHiU4x8)
   - This is a pretty big topic. It's better explained through demos.
@@ -105,7 +105,7 @@ In such a fast paced environment, it is unusual not to feel stressed/ over-worke
 - [Rust Analyzer](https://rust-analyzer.github.io/): a language server that provides IDE-like features such as code completion, diagnostics, jump to definition, etc. It is used to provide IDE-like features in VSCode.
 - UF2: A file format that is used to flash the RP2040. Can be made from an ELF binary.
 - ELF: A file format that is used to store compiled code.
-- RP2040: A powerfull micocrontroller, designed by the Raspberry Pi Foundation, that is used in the Raspberry Pi Pico. We use it to simplify and standardize communication between our electrical/ embedded systems.
+- RP2040: A powerful microcontroller, designed by the Raspberry Pi Foundation, that is used in the Raspberry Pi Pico. We use it to simplify and standardize communication between our electrical/ embedded systems.
 
 ### Robotics-Specific Terms
 
@@ -121,7 +121,7 @@ In such a fast paced environment, it is unusual not to feel stressed/ over-worke
 
 - Altan: the magic word to yell when the code does not work as expected. Duration only lasts for the 23-24 and 24-25 season.
 - Throwing: when somebody makes an accidental mistake that results in unwanted circumstances.
-- MASCP: MUREX Async Serial Communication Protocol. It is a one to many, bi-directional communication protocal built ontop of I2C. It is used to communicate between the Raspberry Pi and the ESCs and between the ESC's themselves.
+- MASCP: MUREX Async Serial Communication Protocol. It is a one to many, bi-directional communication protocol built on top of I2C. It is used to communicate between the Raspberry Pi and the ESCs and between the ESC's themselves.
 
 ## Writing Docs
 
@@ -139,13 +139,13 @@ Once you've done some work, either in writing documentation or programming, how 
 
 ```txt
   feat(murex-util): Implemented MASCP serialization proc-macro
-  fix(exp-aquatic): Removed virus copied from stackoverflow on line 25
+  fix(exp-aquatic): Removed virus copied from StackOverflow on line 25
   feat(pca): Finalized testing suite for PCA9685
   chore(drivers): Moved driver code to separate folder
 
 ... is a lot better than
 
-  Finished everythhing
+  Finished everythhing    <---- Notice the typo
   Fixed a bug
 ```
 
@@ -174,5 +174,5 @@ Members:
 
 Emeriti:
 
-- Chaney '23
+- Chaney Hollis '23
 - Kevin Wei '23
