@@ -11,6 +11,19 @@
   - [Communication](./prog/communication.md)
   - [Onboarding](./prog/onboarding/onboarding.md)
     - [Welcome](./prog/onboarding/welcome.md)
+  - [Contributing](./prog/contribute/contribute.md)
+    - [Clean Code](./prog/contribute/clean_code.md)
+    - [Documenting](./prog/contribute/documenting.md)
+    - [Testing](./prog/contribute/testing.md)
+    - [Style Guide](./prog/contribute/style_guide.md)
+  - [Tech Stack](./prog/tech_stack/tech_stack.md)
+    - [Setup Development Environment](./prog/tech_stack/setup.md)
+    - [Install Tooling](./prog/tech_stack/tooling.md)
+    - [Setup Cross-Compilation Environment](./prog/tech_stack/cross_compile.md)
+    - [Setup Remote Debugger](./prog/tech_stack/remote_debugger.md)
+    
+  
+  
   - [Components](./prog/components/components.md)
     - [UART](./prog/components/uart.md)
 
