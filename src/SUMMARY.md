@@ -2,7 +2,6 @@
 # Welcome
 
 - [Introduction](./introduction.md)
-- [Structure](./structure.md)
 - [Standards](./standards.md)
 
 # Programming
@@ -21,10 +20,11 @@
     - [Install Tooling](./prog/tech_stack/tooling.md)
     - [Setup Cross-Compilation Environment](./prog/tech_stack/cross_compile.md)
     - [Setup Remote Debugger](./prog/tech_stack/remote_debugger.md)
-    
-  
-  
+
+
+
   - [Components](./prog/components/components.md)
+    - [Networking](./prog/components/networking.md)
     - [UART](./prog/components/uart.md)
 
 # Electrical
