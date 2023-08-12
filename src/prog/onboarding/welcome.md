@@ -54,13 +54,13 @@ The design process for MUREX Robotics Programming is as follows:
   - Write the addition of the feature to the Changelog.
 13. Complete a merge request from the other memeber assigned to the task, this will include a final code review.
 
-We follow this process to ensure that all code is well documented, well tested, and well designed. This process is not perfect, and we are always looking for ways to improve it. If you have any suggestions, please let us know. To learn more about our design process, please read our [contribution guide](./contribute.md).
+We follow this process to ensure that all code is well documented, well tested, and well designed. This process is not perfect, and we are always looking for ways to improve it. If you have any suggestions, please let us know. To learn more about our design process, please read our [contribution guide](../contribute/contribute.md).
 
 Every member of the team is treated equally and can request a feature to be implemented. However, the priority of electrical requests will typically be ranked higher then any other subgroup. There is also a special exception for programming members, if you suggest a feature you are responsible for the implementation of the feature. You can work on as many features as you would like, but you are responsible for the implementation of all of them. Failure to do so repeatedly will result in a loss of privileges, eg. you will be demoted to working on less interesting features.
 
 ## Communciation
 
-It is essential that communication within a team is streamline, otherwise the effectiveness and efficiency dropps dramatically. Programming as an individual is starckly different from programming as a team. Many new members are not used to programming as a team, our design process and style guides ensure that this process is as seamless as possible. Find out more from out [contribution guide](./contribute.md).
+It is essential that communication within a team is streamline, otherwise the effectiveness and efficiency dropps dramatically. Programming as an individual is starckly different from programming as a team. Many new members are not used to programming as a team, our design process and style guides ensure that this process is as seamless as possible. Find out more from out [contribution guide](../contribute/contribute.md).
 
 ### Work Planning
 
