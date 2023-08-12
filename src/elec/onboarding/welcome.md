@@ -1,13 +1,13 @@
 # Welcome!
 
-Welcome to MUREX Robotics Electrical. We are a subgroup focused on integration, and efficiency. A few core ideologies follow our design:
+Welcome to MUREX Robotics Electrical. We are a subgroup focused on integration, and efficiency.
 
-> *Attempt the Impossible*\
-> *Dream Big*\
-> *Think Different*\
-> *Don't Throw (joking joking)*
+## Introduction
 
-In following such mottos, MUREX Robotics Electrical focuses on making everything custom, highly integrated, and doing it as well as we possibly can. By keeping COTS parts to a minimum, we vertically integrate all aspects of the robot, minimize space, and surprisingly, minimize cost.
+> *"I do not think there is any thrill that can go through the human heart like that felt by the inventor as he sees some creation of the brain unfolding to success"*
+– [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla)
+
+MUREX Robotics Electrical focuses on making everything custom, highly integrated, and doing it as well as we possibly can. We make industrial/commercial level motion, power, communication, vision and wireless systems accessible to all. Making components custom means we can do unprecedented levels of integration within MUREX robotics systems. By keeping COTS parts to a minimum, we vertically integrate all aspects of the robot, minimize space, and surprisingly, minimize cost. We don't do it the easy way. That's not what we believe in.
 
 ## Explanations
 
@@ -196,12 +196,17 @@ What does this mean? Now that you have read through what MUREX Robotics Electric
 
 This is not the end of your learning, only to jumpstart the beginning. 99% of knowledge comes from failing. This is especially true in electronics. Nobody can call themselves a master without having released some [magic smoke](https://en.wikipedia.org/wiki/Magic_smoke). All the links listed above are excellent resources to explore further. The YouTube channels are basically MUREX Electrical's subscription feed. We strongly encourage you to do the same.
 
+> *Dream Big*\
+> *Think Different*\
+> *Don't Throw (joking joking)*
+
 *Always attempting the impossible,*\
 Members:
 
 - Byran Huang '25
 - Max Liu '26
 - Celine Zhang '26
+- Altan Unver '25
 
 Emeriti:
 

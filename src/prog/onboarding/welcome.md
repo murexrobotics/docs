@@ -1,6 +1,6 @@
 # Welcome!
 
-Welcome to MUREX Robotics Programming. We are a subgroup focused producing efficient and robust. 
+Welcome to MUREX Robotics Programming. We are a subgroup focused producing efficient and robust.
 
 ## Introduction
 
@@ -23,12 +23,12 @@ MUREX Programming is hard. We write code in various languages, that run on a var
 
 The design process for MUREX Robotics Programming is as follows:
 
-1. Identify the desired functionality, and write a design document. 
+1. Identify the desired functionality, and write a design document.
 3. Identify target platform this feature will run on.
 4. Identify the programming language(s) that will be used to implement this feature and the tooling that will be used to build and test this feature.
 5. Create a GitHub issue for the desired feature.
   - The issue should go over the purpose of the feature and it's role in the system.
-  - The issue should be assigned to exactly 2 people: 
+  - The issue should be assigned to exactly 2 people:
     - the person who will be implementing the feature.
     - the person who will be reviewing the implementation.
   - The issue should have a list of sub-tasks written in MarkDown.
@@ -64,7 +64,7 @@ It is essential that communication within a team is streamline, otherwise the ef
 
 ### Work Planning
 
-We use Discord as the primary mode of communication. Programming has a dedicated set of channels intended for the discussion of programming tasks, approaches and meeting times. Every member has equal say in these discussions. All of the tasks to be completed for the competition that have passed the feature request process are listed as Github Issues on the [`murex-2024`](https://github.com/murexrobotics/murex-2024) repository. Each feature will be labeled to identify information about it's urgency, difficulty, target platform and programming language. If you notice that nobody is working on a feature you can request to be assigned to it. If you are assigned to a feature you are responsible for the implementation of the feature. 
+We use Discord as the primary mode of communication. Programming has a dedicated set of channels intended for the discussion of programming tasks, approaches and meeting times. Every member has equal say in these discussions. All of the tasks to be completed for the competition that have passed the feature request process are listed as Github Issues on the [`murex-2024`](https://github.com/murexrobotics/murex-2024) repository. Each feature will be labeled to identify information about it's urgency, difficulty, target platform and programming language. If you notice that nobody is working on a feature you can request to be assigned to it. If you are assigned to a feature you are responsible for the implementation of the feature.
 
 ### Transparency
 
