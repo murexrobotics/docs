@@ -37,6 +37,6 @@ We fully embrace open source, making sure all of our innovations are available t
 
 [Linkedin](https://www.linkedin.com/company/murex-robotics/)
 
-Instagram (coming soon!)
+[Instagram](https://www.instagram.com/murexrobotics/)
 
-Email (coming soon!)
+<a href="mailto:murex@murexrobotics.com">Email</a>
