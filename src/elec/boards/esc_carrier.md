@@ -4,16 +4,15 @@
 
 ![Raytraced Render](../../img/esc_carrier_board_v1.0_release.png)
 
-The MUREX ESC Carrier board is designed to modularize ESCs. In the event of a speed controller failure, the ESC Carrier Board allows for rapid replacement of the components through a highly modular design and hotswap interface. It has a footprint of 201.7 mm x 85.6 mm (7.94 in x 3.37 in).
+The MUREX ESC Carrier board is designed to modularize ESCs. In the event of a speed controller failure, the ESC Carrier Board allows for rapid replacement of the components through a highly modular design and hotswap interface. It has a footprint of 146.7 mm x 85.6 mm (5.78 in x 3.37 in).
 
 ## Current Status
 
-- `V1.0` complete, partially tested
-  - Revisions for `V1.1` in progress
+- `V2.0` production ready
 
 ## Detailed Description
 
-The MUREX ESC Carrier board is a two-layer carrier board that can hold up to 8 ESCs. The ESCs are protected from inrush current by Ametherm's AS32_1R030 NTC thermistor, which provides a resistance of 1Ω at 25°C. The board receives 12V and 3.3V input from the [MUREX Power Board](https://docs.murexrobotics.com/elec/boards/power.html) via the 8-channel Molex 43045-0821 Micro-Fit connector, and data is exchanged via the 2-wire UART protocol with the [MUREX Carrier Board](https://docs.murexrobotics.com/elec/boards/carrier.html) through the 5-channel Molex 53047-0510 PicoBlade. The TE 5530843-7 connector is used to connect the ESCs to the ESC Carrier Board. The Molex 43045-0627 Micro-Fit connector is used to output the ESC phases to the brushless DC motors.
+The MUREX ESC Carrier board is a two-layer carrier board that can hold up to 6 ESCs. The ESCs are protected from inrush current by Ametherm's AS32_1R030 NTC thermistor, which provides a resistance of 1Ω at 25°C. The board receives 12V and 3.3V input from the [MUREX Power Board](https://docs.murexrobotics.com/elec/boards/power.html) via the 8-channel Molex 43045-0821 Micro-Fit connector, and data is exchanged via the 2-wire UART protocol with the [MUREX Carrier Board](https://docs.murexrobotics.com/elec/boards/carrier.html) through the 5-channel Molex 53047-0510 PicoBlade. The TE 5530843-7 connector is used to connect the ESCs to the ESC Carrier Board. The Molex 43045-0627 Micro-Fit connector is used to output the ESC phases to the brushless DC motors.
 
 ### Connectors and ICs
 
@@ -61,13 +60,13 @@ The MUREX ESC Carrier board is a two-layer carrier board that can hold up to 8 E
     - 6 positions (2 x 3)
     - Sends ESC phases to BLDC motors (2 positions per phase, 6 positions total)
 
-### [Schematic (PDF)](../pdf/schematics/esc_carrier_v1.0_schematic.pdf)
+### [Schematic (PDF)](../pdf/schematics/esc_carrier_v2.0_schematic.pdf)
 
 ![Schematic Preview](../../img/esc_carrier_board_schematic_preview.png)
 
 ### To Do
 
-- [ ] `V1.0` testing
+- [ ] `V2.0` testing
 
 ### Changelog
 
@@ -75,9 +74,10 @@ V1.0:
 
 - Initial design
 
-V1.1:
+V2.0:
 
 - Refactored pinout of the TE 5530843-7 connector to bring 12V and GND next to phases
-  - Refactored placement of the components on the right side of the board to accommodate
+  - Refactored placement of the components on the right side of the board to accommodate new pinout and decrease the size of the board
 - Decreased spacing between ESCs to give the board a smaller footprint
 - Thickened 12V traces on the Molex 43045-0821 Micro-Fit connector
+- Removed connectors for 2 ESCs to decrease the size of the board
