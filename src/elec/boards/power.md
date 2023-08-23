@@ -3,9 +3,8 @@
 ## Outline
 
 ![Raytraced Render](../../img/power_board_v1.1_release.png)
-*above images do not include recent `V1.1` changes
 
-The MUREX Power Board is the world's smallest dual-output buck converter, reducing an input voltage of 12V to 5V and 3V3 respectively. An integrated current sensor and circuit protection combined with microscopic physical dimensions measuring 40mm x 56mm (1.6″ x 2.2″) renders the power board an elite feature of MUREX electronics.
+The MUREX Power Board is among the world's smallest dual-output high power buck converters, reducing an input voltage of 12V to 5V and 3V3 respectively. An integrated current sensor and circuit protection combined with microscopic physical dimensions measuring 40mm x 56mm (1.6″ x 2.2″) renders the power board an elite feature of MUREX electronics.
 
 ## Detailed Description
 
@@ -15,7 +14,7 @@ The board formerly featured an M.2 card edge (Key A) that would provide 5V and I
 
 ## Current Status
 
-- `V1.1` Complete, sent to fabricator for manufactoring
+- `V1.1` Complete, partially tested
   - `V1.2` Revisions in progress
 
 ## Integrated Sensors and ICs
@@ -35,7 +34,7 @@ The board formerly featured an M.2 card edge (Key A) that would provide 5V and I
   - Shunt-resistor based
   - Voltage sensing from 0V-36V
   - Reports current, voltage, and power
-  - Jumper allows backup I2C address
+  - Jumper enables backup I2C address
 - [ACS712 (retired in V1.1)](https://www.allegromicro.com/en/products/sense/current-sensor-ics/zero-to-fifty-amp-integrated-conductor-sensor-ics/acs712) Current Sensor IC
   - Hall-effect based
   - Selected part optimized for ±30A measurements
@@ -49,7 +48,7 @@ The board formerly featured an M.2 card edge (Key A) that would provide 5V and I
 
 - [ ] Add microfit connector to Carrier Board
 - [ ] Improve mounting mechanism
-- [ ] `V1.1` testing
+- [ ] INA226 testing
 
 ### Changelog
 
