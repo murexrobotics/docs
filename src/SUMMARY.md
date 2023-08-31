@@ -44,6 +44,7 @@
   - [Tech Stack](./elec/tech_stack.md)
   - [PCB](./elec/pcb/pcb.md)
     - [Differential Pairs](./elec/pcb/differential_pairs.md)
+    - [Ethernet PHY](./elec/pcb/ethernet-phy.md)
   - [Components](./elec/components/components.md)
     - [Topside](./elec/topside.md)
     - [Power Wiring](./elec/components/power_wiring.md)
