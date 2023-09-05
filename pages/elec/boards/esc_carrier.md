@@ -4,7 +4,7 @@
 
 ![Raytraced Render](../../img/esc_carrier_board_v1.0_release.png)
 
-The MUREX ESC Carrier board is designed to modularize ESCs. In the event of a speed controller failure, the ESC Carrier Board allows for rapid replacement of the components through a highly modular design and hotswap interface. It has a footprint of 146.7 mm x 85.6 mm (5.78 in x 3.37 in).
+This is the MUREX ESC Carrier Board, the world's first open source modular motion control system. In the event of a speed controller failure, the ESC Carrier Board allows for rapid replacement of the components through a hotswap interface. In addition, the board offers inrush current protection for the ESCs. It has a footprint of 146.7 mm x 85.6 mm (5.78 in x 3.37 in).
 
 ## Current Status
 

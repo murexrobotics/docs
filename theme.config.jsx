@@ -56,7 +56,7 @@ export default {
       };
     }
   },
-  docsRepositoryBase: "https://github.com/murexrobotics/docs-2024",
+  docsRepositoryBase: "https://github.com/murexrobotics/docs-2024/tree/main",
   sidebar: {
     defaultMenuCollapseLevel: 1,
     toggleButton: true,
