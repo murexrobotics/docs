@@ -1,21 +1,21 @@
 # Welcome!
 
-Welcome to MUREX Robotics Electrical. We are a subgroup focused on integration, and efficiency.
+Welcome to MUREX Robotics Electrical. We are focused on pushing boundaries and making electronics/systems design more accessible to all.
 
 ## Introduction
 
 > *"I do not think there is any thrill that can go through the human heart like that felt by the inventor as he sees some creation of the brain unfolding to success"*
 – [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla)
 
-MUREX Robotics Electrical focuses on making everything custom, highly integrated, and doing it as well as we possibly can. We make industrial/commercial level motion, power, communication, vision and wireless systems accessible to all. Making components custom means we can do unprecedented levels of integration within MUREX robotics systems. By keeping COTS parts to a minimum, we vertically integrate all aspects of the robot, minimize space, and surprisingly, minimize cost. We don't do it the easy way. That's not what we believe in.
+MUREX Robotics Electrical focuses on making everything highly integrated and custom. We make industrial/commercial level motion, power, communication, vision and wireless systems accessible to all. By making components fully custom, we can accomplish unprecedented levels of integration within MUREX robotics systems. By keeping COTS parts to a minimum, we vertically integrate all aspects of the robot, minimize space, and surprisingly, minimize cost. We don't do it the easy way. That's not what we believe in.
 
 ## Explanations
 
-MUREX Robotics Electrical has a high but very rewarding learning curve. Below explains the basis of the work we do. ***It is not required that you understand the material, this is for you to learn. We do not expect you to know anything when you first join.***
+MUREX Robotics Electrical has a high but very rewarding learning curve. Below explains the basis of the work we do. ***It is not required that you understand the material. This is for you to learn. We do not expect you to know anything when you first join.***
 
 ## Required Software
 
-- KiCAD Nightly
+- KiCAD **Nightly** (we utilize Nightly build features)
   - Version 7.99
     - [macOS](https://downloads.kicad.org/kicad/macos/explore/nightlies)
     - [Windows](https://downloads.kicad.org/kicad/windows/explore/nightlies)
