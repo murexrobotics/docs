@@ -1,4 +1,0 @@
-# MUREX Contribution Guide
-
-
-- 

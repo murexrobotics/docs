@@ -1,0 +1,26 @@
+{
+    "index": "Introduction",
+    "contact": "Contact Us",
+    "standards": "Standards",
+    "elec": "Electrical",
+    "prog": "Programming",
+    "mech": "Mechanical",
+    "documentation": {
+        "type": "page",
+        "title": "Documentation",
+        "href": "https://docs.murexrobotics.com",
+        "newWindow": true
+    },
+    "main_website": {
+        "type": "page",
+        "title": "Website",
+        "href": "https://murexrobotics.com",
+        "newWindow": true
+    },
+    "About": {
+        "type": "page",
+        "title": "About",
+        "href": "https://murexrobotics.com/about",
+        "newWindow": true
+    }
+}
