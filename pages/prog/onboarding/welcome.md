@@ -125,7 +125,7 @@ In such a fast paced environment, it is unusual not to feel stressed/ over-worke
 
 ## Writing Docs
 
-It is expected of every MUREX Robotics Programming member to write documentation in a timely manner. The "docs" are hosted on mdBook, which is written in Markdown and deployed to GitHub Pages through GitHub Actions.
+It is expected of every MUREX Robotics Electrical member to write documentation in a timely manner. The "docs" are built with Nextra, which puts Markdown files in a easily-readable format and deploys to GitHub Pages through GitHub Actions.
 
 - When adding docs, it should outline any work you have done, and any specialized knowledge required. Pictures are good.
 - In writing any docs, if there is precedent, follow it.

@@ -13,16 +13,16 @@ PCB Design is the entire process of making a PCB, from initial schematic to manu
 3. Design your PCB
     - Update design constraints based on fabricator PCB specifications
     - Untangle your ratsnest by shuffling and rotating parts around
-    - Route your board by placing traces between components, adding vias when neccecary
+    - Route your board by placing traces between components, adding vias when necessary
     - Add any copper pours (typically GND or PWR planes)
-    - Add ground vias
+    - Add grounding vias
     - Double-check circuitry and clearance. KiCAD's Design Rules Checker (DRC) can be helpful in detecting any design violations
     - Draw your board outline
     - Rinse and repeat until satisfied! PCB Design is an iterative process. Rerouting the board often saves precious space and cements the designer's understanding of the circuitry
 4. Design your silkscreen
     - The silkscreen is a layer of visible ink on your PCB
     - Make sure REFDES is visible
-    - Add any other important component information e.g polarities, input, testpoints
+    - Add any other important component information e.g polarities, input, test points
     - Add aesthetics, logos, and inspirational quotes e.g. attempt the impossible, coconut water tastes good etc.
 5. Tapeout verification with the team
 6. Production with Fabricator
@@ -30,7 +30,7 @@ PCB Design is the entire process of making a PCB, from initial schematic to manu
     - Upload and order your board on the fabricator website! We typically order from JLCPCB
 7. PCB Testing
     - Once you receive the board, solder any components have haven't been assembled by the fabricator
-    - Conduct vigourous testing
+    - Conduct vigorous testing
     - Summon Altan for any embedded programming
 
 Remember, if you board doesn't work first try, that's okay. Try to identify where the problems are and fix them in the second revision. PCBs can cost a hefty amount however, so make sure you do your best to get everything correct first try.

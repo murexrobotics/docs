@@ -61,21 +61,21 @@ MUREX Robotics Electrical has a high but very rewarding learning curve. Below ex
 - Capacitor (cap/C): Device used to store electric charge on two dielectric plates, usually ceramic or electrolytic based. Common shorthand is a *"cap"*. Caps are commonly used in circuits to decouple or bypass power or signals.
   - [Decoupling capacitor basics](https://lcamtuf.substack.com/p/the-basics-of-decoupling-capacitors)
   - [Great Scott Explains Capacitors](https://www.youtube.com/watch?v=otQGdPLyF3w)
-- Resistor (R): Device used to resist electric flow.
+- Resistor (res/R): Device used to resist electric flow.
   - [Great Scott Explains Resistors](https://www.youtube.com/watch?v=7w5I-KbJ1Sg)
 - Inductor (L): Device used to store electric charge in a magnetic field.
   - [Great Scott Explains Inductors](https://www.youtube.com/watch?v=kdrP9WbJIb8)
-- MOSFET: metal-oxide semiconductor field-effect transistors are "digital switches". There are 3 pins on a MOSFET. If the "gate" pin has a voltage applied, the other two pins become conductive.
+- MOSFET (mos/fet): metal-oxide semiconductor field-effect transistors are "digital switches". There are 3 pins on a MOSFET. If the "gate" pin has a voltage applied, the other two pins become conductive.
   - [Great Scott Explains MOSFETs](https://www.youtube.com/watch?v=o4_NeqlJgOs)
-- Multimeter: OK, you've learned so much about electronics already. In a circuit, how do you test to see if it actually works? Use a multimeter.
+- Multimeter (DMM, multi, meter): OK, you've learned so much about electronics already. In a circuit, how do you test to see if it actually works? Use a multimeter.
   - [Colin's Lab Explains How to Use a Multimeter](https://www.youtube.com/watch?v=rPGoMbVSUu8&pp=ygUWY29saW4ncyBsYWIgbXVsdGltZXRlcg%3D%3D)
-- Soldering: the process of melting metal, usually Tin and Gold to create metal joins. MUREX strives to be environmentally safe, thus we work in compliance to [RoHS](https://environment.ec.europa.eu/topics/waste-and-recycling/rohs-directive_en).
+- Soldering (to solder): the process of melting metal, usually Tin and Gold to create metal joins. MUREX strives to be environmentally safe, thus we work in compliance to [RoHS](https://environment.ec.europa.eu/topics/waste-and-recycling/rohs-directive_en).
   - [Colin's Lab Explains How to Solder](https://www.youtube.com/watch?v=QKbJxytERvg)
   - [... and Desolder](https://www.youtube.com/watch?v=N_dvf45hN6Y&pp=ygUVY29saW4ncyBsYWIgc29sZGVyaW5n)
   - [... and SMD solder](https://www.youtube.com/watch?v=QzoPxvIM2qE&pp=ygUVY29saW4ncyBsYWIgc29sZGVyaW5n)
   - and honestly, watch all of Colin's Lab's videos. They're great.
   - Soldering takes practice. A lot of practice.
-- Electrical connector: How do you form reliable electrical connections between circuits? You guessed it –– an electrical connector. There are mainly 3 types:
+- Electrical connector (conn): How do you form reliable electrical connections between circuits? You guessed it –– an electrical connector. There are mainly 3 types:
   - Wire to board: connects wires to PCBs
   - Board to board: connects PCBs to PCBs
   - Wire to wire: ...connects wires to wires...
@@ -91,17 +91,17 @@ How do you get started with electronics? In the modern, Internet-equipped days, 
 
 ## Robotics-Specific Terms
 
-- [Blue Robotics](https://bluerobotics.com/learn/technical-reference/) is a company specializing in underwater robotics. Basically all teams use their thrusters, and most teams use their enclosures and ESCs. Their products are extremely robust and easy to use, but at a high cost and unspecialized towards MATE robotics. As an educational team, we receive a 15% discount.
+- [Blue Robotics](https://bluerobotics.com/learn/technical-reference/) (BR) is a company specializing in underwater robotics. Basically all teams use their thrusters, and most teams use their enclosures and ESCs. Their products are extremely robust and easy to use, but at a high cost and unspecialized towards MATE robotics. As an educational team, we receive a 15% discount.
 - BLDC: brushless DC motor
   - [Great Scott Explains](https://www.youtube.com/watch?v=UteZJ_7C4Mg)
   - [Animation](https://www.youtube.com/watch?v=bCEiOnuODac)
-- T200: Blue Robotics's latest underwater thruster offering. There is a motor and a propeller, which displaces water through its blades, thus generating thrust. It is a BLDC, meaning it has high torque and speed, but requires an ESC to control it.
+- T200 (thruster): Blue Robotics's latest underwater thruster offering. There is a motor and a propeller, which displaces water through its blades, thus generating thrust. It is a BLDC, meaning it has high torque and speed, but requires an ESC to control it.
   - [Rusty (CEO of Blue Robotics) Introduces T200 Thrusters](https://www.youtube.com/watch?v=Q2pI3XF_XU4)
 - ESC: an electronic speed controller, as the name implies, controls the speed of a motor. The reason an ESC is required is because BLDCs don't take a DC current. They actually take 3 phases as input.
   - [Great Scott DIY ESC](https://www.youtube.com/watch?v=W9IHEqlGG1s)
   - [Texas Instruments Whitepaper](https://www.ti.com/lit/an/slvaes1a/slvaes1a.pdf?ts=1687900715464)
   - [More TI Whitepapers](https://www.ti.com/solution/dc-input-bldc-motor-drive#tech-docs)
-- Ethernet: a family of wired computer networking technologies commonly used in local area networks (LAN), metropolitan area networks (MAN) and wide area networks (WAN). In MUREX, we use it as an intranet between the Raspberry Pi and topside. This requires some knowledge of network management.
+- Ethernet (eth): a family of wired computer networking technologies commonly used in local area networks (LAN), metropolitan area networks (MAN) and wide area networks (WAN). In MUREX, we use it as an intranet between the Raspberry Pi and topside. This requires some knowledge of network management.
   - [Network Chuck Explains IP Addresses](https://www.youtube.com/watch?v=5WfiTHiU4x8)
   - This is a pretty big topic. It's better explained through demos.
 - OFDM (powerline adapter): best explained by [Linus](https://www.youtube.com/watch?v=ywQeJCa3jl8)
@@ -111,14 +111,14 @@ How do you get started with electronics? In the modern, Internet-equipped days, 
   - [Fireship Explained in 100s](https://www.youtube.com/watch?v=eZ74x6dVYes)
 
 - JLCPCB: "Founded in 2006, JLCPCB has been at the forefront of the PCB industry. With over 15-year continuous innovation and improvement based on customers' need, we have been growing fast, and becoming a leading global PCB manufacturer, who provides the rapid production of high-reliability and cost-effective PCBs and creates the best customer experience in the industry."
-  - Our PCB and PCBA (component assembly) contractor of choice
+  - Our primary PCB and PCBA (component assembly) contractor of choice
   - [Strange Parts Tours JLCPCB Factory](https://www.youtube.com/watch?v=ljOoGyCso8s)
 - I2C: a synchronous, multi-master/multi-slave (controller/target), packet switched, single-ended, serial communication bus. It is widely used for attaching lower-speed peripheral ICs to processors and microcontrollers in short-distance, intra-board communication. Almost all sensors use I2C to communicate
   - [nandland Explains I2C](https://www.youtube.com/watch?v=jFtr0Ha5f-c&t)
   - [Great Scott Explains I2C](https://www.youtube.com/watch?v=_fgWQ3TIhyE)
 - UART: [best explained by wikipedia](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter)
   - [Great Scott Explains UART](https://www.youtube.com/watch?v=yFQS_TQ4948)
-- Buck Converter/Voltage Regulator/Step Down Converter: Once again, a complex topic best explained by other sources such as [Wikipedia](https://en.wikipedia.org/wiki/Buck_converter). In short, it uses a circuit to step down a higher voltage (potential) to a lower voltage (potential). The opposite of a buck converter is booster converter.
+- Buck Converter/Voltage Regulator/Step Down Converter (buck, v reg): Once again, a complex topic best explained by other sources such as [Wikipedia](https://en.wikipedia.org/wiki/Buck_converter). In short, it uses a circuit to step down a higher voltage (potential) to a lower voltage (potential). The opposite of a buck converter is booster converter.
   - [Great Scott Explains](https://www.youtube.com/watch?v=m8rK9gU30v4)
 - USB: universal serial bus is a physical and software protocol defining how devices communicate with each other. It is important to know the different sizes for USB, and how it works under the hood.
   - [USB Connector Sizing](https://www.youtube.com/watch?v=pIZREjck9jg&t)
@@ -137,9 +137,9 @@ How do you get started with electronics? In the modern, Internet-equipped days, 
 - PCB Terminology:
   - Carrier - Byran Huang '25: Powered by a Raspberry Pi CM4, acting as the control hub for the ROV. Learn more [here](../boards/carrier.md)
   - ESC Carrier - Celine Zhang '26: Utilizing an NTC thermistor, acting as a mechanism for the modularization and protection of the ESCs. Learn more [here](../boards/esc_carrier.md)
-  - Power Board - Max Liu '26: TODO
+  - Power Board - Max Liu '26: Dual output buck converter with reverse polarity protection and current sensing. Learn more [here](../boards/power.md)
   - ESC - Byran Huang '25: Powered by RP2040s, acting as the driving board for controlling the thrusters. They handle a lot of current. Learn more [here](../boards/esc.md)
-  - LVX - RAKWireless: TODO
+  - LVX - RAKWireless: The OFDM module produced by RAKWireless, formally known as the LX200V20EVB
 - Conversational Terminology:
   - Altan: the magic word to yell when the code does not work as expected. Duration only lasts for the 23-24 and 24-25 season.
   - Throwing: when somebody makes an accidental mistake that results in unwanted circumstances.
@@ -148,7 +148,7 @@ How do you get started with electronics? In the modern, Internet-equipped days, 
 
 ## Writing Docs
 
-It is expected of every MUREX Robotics Electrical member to write documentation in a timely manner. The "docs" are hosted on mdBook, which is written in Markdown and deployed to GitHub Pages through GitHub Actions.
+It is expected of every MUREX Robotics Electrical member to write documentation in a timely manner. The "docs" are built with Nextra, which puts Markdown files in a easily-readable format and deploys to GitHub Pages through GitHub Actions.
 
 - When adding docs, it should outline any work you have done, and any specialized knowledge required. Pictures are good.
 - In writing any docs, if there is precedent, follow it.
@@ -161,23 +161,23 @@ It is expected of every MUREX Robotics Electrical member to write documentation 
 Once you've done some work, either in writing documentation or working in KiCAD, how do you commit it? Good question. To make sure everyone's on the same page, we follow a [commit standard](../../standards.md). Commits are incredibly important – think of them as chapters in a book. They track changes over time, meaning incremental updates are much better than a big one. For example:
 
 ```txt
-Feat: initialized project
-Feat: initial schematic design
-Feat: finalized schematic design
-Feat: initial component layout
-Fix: fixing component layout
-Feat: routing
-Fix: fixes according to feedback
-Feat: routing v2
-Feat: routing v3
-Feat: finalized routing
-Feat: board file production ready
-Feat: optimized BOM
-Feat: tape-out stage
+Feat[project-name]: initialized project
+Feat[project-name]: initial schematic design
+Feat[project-name]: finalized schematic design
+Feat[project-name]: initial component layout
+Fix[project-name]: fixing component layout
+Feat[project-name]: routing
+Fix[project-name]: fixes according to feedback
+Feat[project-name]: routing v2
+Feat[project-name]: routing v3
+Feat[project-name]: finalized routing
+Feat[project-name]: board file production ready
+Feat[project-name]: optimized BOM
+Feat[project-name]: tape-out stage
 
 ... is a lot better than
 
-Feat: <insert project name> done
+Feat[project-name]: <insert project name> done
 ```
 
 Commit standards apply to all commits on Git to the MUREX organization. Since we're a pretty small team, we don't implement any PR system or much CI/CD for those who come from a software development background, but a good commit history is important.
@@ -190,7 +190,7 @@ Going to back our "mission statement"... (it's not really a mission statement, m
 
 What does this mean? Now that you have read through what MUREX Robotics Electrical (or *elec*) is all about and equipped with technical expertise, we can finally say what the true meaning is.
 
-***Attempt the impossible***: We do it the best way possible. If pre-built parts or breakout boards don't cut it, we don't use it. If a processor isn't powerful enough, we don't use it. If a board isn't small enough, we make it smaller. No matter how difficult it may be to accomplish, we will follow through. No matter how hard it is. Things don't always go your way. No matter how hard you try to perfect your schematic, your PCB layout, your system integration, it still might not work out. It's "impossible", a non-MUREX Robotics Electrical member might say. We accept it as the process. In the end, we will have achieved something others might have called "impossible". But the achievement only comes through endless, motivated attempts at the impossible.
+***Attempt the impossible***: We do it the best way possible. If pre-built parts or breakout boards don't cut it, we don't use it. If a processor isn't powerful enough, we don't use it. If a board isn't small enough, we make it smaller. No matter how difficult it may be to accomplish, we will follow through. No matter how hard it is. Things don't always go your way. No matter how hard you try to perfect your schematic, your PCB layout, your system integration, it still might not work out. Things are bound to go wrong, and it is up to *us* do it right. It's "impossible", a non-MUREX Robotics Electrical member might say. However, we accept it as the process. In the end, we will have achieved something others might have called "impossible". But the achievement only comes through endless, motivated attempts at the impossible.
 
 ## Summary
 
