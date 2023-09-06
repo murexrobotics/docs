@@ -12,4 +12,4 @@
   - Common mode chokes should face cable side (closer to connector?)
   - Center tab connected to ground through decoupling capacitors
   - Bob smith termination to reduce noise?
-  - System GND and Earth GND should have 1 megaohm resistor and 4700pF cap across in parallel
+  - System GND and Earth GND should have 1M resistor and 4700pF cap across in parallel
