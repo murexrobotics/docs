@@ -60,7 +60,7 @@ The MUREX ESC Carrier board is a two-layer carrier board that can hold up to 6 E
     - 6 positions (2 x 3)
     - Sends ESC phases to BLDC motors (2 positions per phase, 6 positions total)
 
-### [Schematic (PDF)](../pdf/schematics/esc_carrier_v2.0_schematic.pdf)
+### [Schematic (PDF)](/pdf/schematics/esc_carrier_v2.0_schematic.pdf)
 
 ![Schematic Preview](../../img/esc_carrier_board_schematic_preview.png)
 

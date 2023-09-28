@@ -49,7 +49,7 @@ CM4 Specific Features:
   - Intended to work with the Blue Robotics Leak Sensors or any other JST-GH size sensor (ROV-specific)
   - Pinpointing the leak with the anti-ghosting technology inspired from high-end gaming keyboards
 
-### [Schematic (PDF)](../pdf/schematics/carrier_v1.1_schematic.pdf)
+### [Schematic (PDF)](/pdf/schematics/carrier_v1.1_schematic.pdf)
 
 ![Schematic Preview](../../img/carrier_board_schematic_preview.png)
 
