@@ -1,4 +1,8 @@
 {
     "welcome": "Welcome!",
-    "pcb_design": "PCB Design"
+    "pcb_design": "PCB Design",
+    "tryouts": {
+        "title": "Tryouts",
+        "display": "hidden"
+    }
 }
