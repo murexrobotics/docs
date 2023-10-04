@@ -54,7 +54,7 @@ MUREX Robotics Electrical has a high but very rewarding learning curve. Below ex
 - Route/Jump/Bridge: purposeful connection between two locations in a circuit
 - PCB: A printed circuit board connects electrical components together usually on a piece of fiberglass (FR4). MUREX uses KiCAD to make all its PCBs. All the basics and terminology for PCBs can be learned through Shawn Hymel's Digikey KiCAD tutorial series
   - [Shawn Hymel's KiCAD tutorials](https://www.youtube.com/watch?v=vaCVh2SAZY4&list=PL3bNyZYHcRSUhUXUt51W6nKvxx2ORvUQB)
-  - [**For more details on PCB design, take a look at this**](./pcb-design.md)
+  - [**For more details on PCB design, take a look at this**](./pcb_design.md)
 - Integrated Circuits (ICs): A set of electronic circuits on one small flat piece (or "chip") of semiconductor material, usually silicon. ICs are the heart of PCBs and are what provides the functionality of the boards.
 - Through-hole technology (THT): Device that mounts radially or axially through a PCB. Simpler to solder, takes up valuable space. They can also cost more.
 - Surface-mount technology (SMT): Device that mounts on the surface of a PCB. Much smaller, harder to solder by hand. They usually cost less.
