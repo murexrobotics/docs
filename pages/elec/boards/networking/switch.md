@@ -32,9 +32,9 @@ The MUREX Ethernet Switch is a 5 port 100BASE-TX unmanaged switch using the IP17
 - [BT16A07](https://datasheet.lcsc.com/lcsc/1806051531_TNK-BT16A07_C216355.pdf) 10/100 Base-T Single Port Transformer
   - 350uH primary
 
-### Schematic
+### [Schematic (PDF)](/pdf/schematics/switch_v1.0_schematic.pdf)
 
-- N/A
+![Schematic Preview](../../../img/switch_schematic_preview.png)
 
 ### To Do
 

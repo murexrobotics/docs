@@ -14,7 +14,7 @@ The board formerly featured an M.2 card edge (Key A) that would provide 5V and I
 
 ## Current Status
 
-- `V1.1` Complete, partially tested
+- `V1.1` Complete, successfully integration tested with Carrier Board
   - `V1.2` Revisions in progress
 
 ## Integrated Sensors and ICs

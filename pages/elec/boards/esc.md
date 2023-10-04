@@ -30,7 +30,7 @@ There are plans to have multiple, independent versions of this board, hence its 
 
 - STESC `V1.0` Draft Complete
   - `V1.1` revisions in progress
-- DRVESC `V1.0` in progress 
+- DRVESC `V1.0` Draft Complete
 
 ### Integrated Sensors/ICs
 
@@ -45,15 +45,19 @@ There are plans to have multiple, independent versions of this board, hence its 
     - Dual Core ARM Cortex M0+
     - [W25Q64JVXGIQ](https://www.winbond.com/resource-files/W25Q64JV%20RevK%2003102021%20Plus.pdf) 8MB QSPI flash
 
-### Schematic
+### [STESC Schematic (PDF)](/pdf/schematics/stesc_v1.0_schematic.pdf)
 
-In progress
+![Schematic Preview](../../img/stesc_schematic_preview.png)
+
+### [DRVESC Schematic (PDF)](/pdf/schematics/drvesc_v1.0_schematic.pdf)
+
+![Schematic Preview](../../img/drvesc_schematic_preview.png)
 
 ### To Do
 
-- [ ] DRVESC `V1.0` Draft
+- [ ] DRVESC `V1.1` revisions
 - [ ] STESC `V1.1` revisions
 
 ### Changelog
 
-- V1.0 in progress
+- Revisions in progress
