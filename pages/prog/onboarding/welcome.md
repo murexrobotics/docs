@@ -171,6 +171,10 @@ Members:
 - Celine Zhang '26
 - Byran Huang '25
 - Max Liu '26
+- Varit Asavathiratham '25
+- Anshul Noori '27
+- Anika Sivarasa '26
+- Marvin Shim '27
 
 Emeriti:
 
