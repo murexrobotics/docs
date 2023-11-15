@@ -121,7 +121,7 @@ In such a fast paced environment, it is unusual not to feel stressed/ over-worke
 
 - Altan: the magic word to yell when the code does not work as expected. Duration only lasts for the 23-24 and 24-25 season.
 - Throwing: when somebody makes an accidental mistake that results in unwanted circumstances.
-- MASCP: MUREX Async Serial Communication Protocol. It is a one to many, bi-directional communication protocol built on top of I2C. It is used to communicate between the Raspberry Pi and the ESCs and between the ESC's themselves.
+- MASCP: MUREX Async Serial Communication Protocol. It is a one to many, bi-directional communication protocol built on top of UART. It is used to communicate between the Raspberry Pi and the ESCs and can be used to communicate between ESC's.
 
 ## Writing Docs
 
