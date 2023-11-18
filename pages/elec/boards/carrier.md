@@ -58,6 +58,21 @@ CM4 Specific Features:
 - [ ] Amplification required for leak detection matrix? (still unsure)
 - [ ] Wire HW interrupts for BMI088
 - [ ] SPI BMI088
+- [ ] Isolated PWM breakout board (no more high power on carrier)
+- [ ] Double sided SMT (perhaps CM4 on back?)
+- [ ] Do standard GPIO layout
+- [ ] One USB 3.0 port
+- [ ] Remove USB-C connector
+- [ ] Add electrolytic caps
+- [ ] eFuse module + remove schottky
+- [ ] Remove test points for LEDs
+- [ ] Switch magnetometer IC
+- [ ] Replace some ICs with co-processor MCU
+  - [ ] ESP32 [like this](https://www.espressif.com/sites/default/files/documentation/esp32-c6-mini-1_mini-1u_datasheet_en.pdf)
+  - [ ] nRF
+  - [ ] STM32
+  - [ ] RP2040 (probably not, bad ADC)
+- [ ] Remove bottom M.2 connector
 - [ ] External magnetics for Ethernet
   - [ ] Currently deciding
   - [X] Work in progress
