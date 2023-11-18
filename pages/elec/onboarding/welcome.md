@@ -205,8 +205,9 @@ Members:
 
 - Byran Huang '25
 - Max Liu '26
-- Celine Zhang '26
 - Altan Unver '25
+- Crane Lee '27
+- Varit Asavathiratham '25
 
 Emeriti:
 
