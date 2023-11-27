@@ -168,7 +168,6 @@ Members:
 
 - Altan Unver '25
 - Ethan Cheng '24
-- Celine Zhang '26
 - Byran Huang '25
 - Max Liu '26
 - Varit Asavathiratham '25
