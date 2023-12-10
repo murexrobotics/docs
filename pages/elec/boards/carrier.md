@@ -2,7 +2,7 @@
 
 ## Outline
 
-![Raytraced Render](../../img/carrier_board_v1_2_release.jpg)
+![Raytraced Render](../../img/carrier_board_v3_release.jpg)
 
 The MUREX Carrier Board is a robotics control system, focused on ROV systems. It is the world's first open-source CM4-based ROV control board, world's first open-source implementation of USB3.0 on the Raspberry Pi Compute Module 4, and low-cost.
 
@@ -19,21 +19,24 @@ The MUREX Carrier Board is a robotics-oriented application of the Raspberry Pi C
 
 ### Integrated Sensors/ICs
 
-- [ESP32-S3-MINI-1]() (Co-Processor)
+- [ESP32-S3-MINI-1](https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf) (Co-Processor)
   - Low-power MCU-based system on a chip (SoC) with integrated 2.4 GHz Wi-Fi and Bluetooth® Low Energy (Bluetooth LE)
 - [BME680](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme680-ds001.pdf) (Enclosure Pressure, Humidity, Temperature, VOC)
   - Accurate environmental sensor within enclosure
-- [LIS3MDL]() (Magnetometer) and [BMI088]() (IMU)
+- [LIS3MDL](https://www.st.com/en/mems-and-sensors/lis3mdl.html) (Magnetometer) and [BMI088](https://www.bosch-sensortec.com/products/motion-sensors/imus/bmi088/) (IMU)
   - High accuracy 9-DOF MEMS sensor (±1˚ magnetic heading, ±0.004˚/s gyroscopic heading, ±0.09 mg acceleration)
 - [MS5837](https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FMS5837-30BA%7FB1%7Fpdf%7FEnglish%7FENG_DS_MS5837-30BA_B1.pdf%7FCAT-BLPS0017) (Environmental Pressure)
   - High accuracy, high depth pressure sensor (±2 mm altitude/depth, ±1 C˚ temperature)
-- [SK6812-EC20 (Neopixel)]() (Debug/Status)
+- [SK6812-EC20 (Neopixel)](http://www.normandled.com/upload/202003/SK6812-EC20%20LED%20Datasheet.pdf) (Debug/Status)
   - 4 daisy-chained SK6812-EC20 RGB LEDs
-- [TPS259474LRPWR]() (eFuse)
+- [TPS259474LRPWR](https://www.ti.com/lit/ds/symlink/tps25947.pdf) (eFuse)
   - 5V and 3.3V independent input protection
-- [uPD720202]() (USB 3.0)
+- [uPD720202](https://www.renesas.com/us/en/products/interface/usb-switches-hubs/upd720202-usb-30-host-controller) (USB 3.0)
+  - USB host controller LSI compatible with the USB 3.0 and xHCI (eXtensible Host Controller Interface) 1.0 specifications
 - [AP3429KTTR-G1](https://www.diodes.com/assets/Datasheets/AP3429.pdf) (1.05V DC-DC Converter)
-- [TPS54331DRA]() (3.3V DC-DC Converter)
+  - 1MHz 2A DC-DC converter
+- [TPS54331DRA](https://www.ti.com/lit/ds/symlink/tps54331.pdf) (3.3V DC-DC Converter)
+  - 570KHz 3A non-synchronous buck converter
 - Full system protection on power rails
 - Transient protection on vital data lines
 - 5V and 3.3V power rail LEDs (Debug/Status)
