@@ -23,6 +23,7 @@ brew install --cask orbstack
 5. Clone Linux source code to the new case-sensitive partition
 
 ```sh
+sudo apt install -y git bc bison flex libssl-dev make libc6-dev libncurses5-dev crossbuild-essential-armhf crossbuild-essential-arm64
 cd /Volumes/<PARTITION NAME>
 git clone --depth=1 https://github.com/raspberrypi/linux
 ```
