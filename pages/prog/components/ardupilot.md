@@ -7,8 +7,8 @@
 1. Clone `ardupilot` repository
 
 ```sh
-git clone https://github.com/murexrobotics/ardupilot
-cd ardupilot
+git clone https://github.com/murexrobotics/mrx
+cd mrx
 ```
 
 2. Install dependencies

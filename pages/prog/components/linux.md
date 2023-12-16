@@ -16,7 +16,7 @@ brew install --cask orbstack
    1. Open Disk Utility
    2. Choose root disk (APPLE SSD .... Media)
    3. Click "partition" on top right
-   4. Create a reasonably sized APFS case-sensitive filesystem (around 20 GB)
+   4. Create a reasonably sized APFS case-sensitive **partition** (around 20 GB)
    5. Allow system to repartition (may take a few minutes)
 3. Open OrbStack and create a new Ubuntu instance under "Linux > Machines"
 
@@ -27,13 +27,13 @@ brew install --cask orbstack
 ```sh
 sudo apt install -y git bc bison flex libssl-dev make libc6-dev libncurses5-dev crossbuild-essential-armhf crossbuild-essential-arm64
 cd /Volumes/<PARTITION NAME>
-git clone --depth=1 https://github.com/murexrobotics/linux
+git clone https://github.com/murexrobotics/mrxOS
 ```
 
 6. Make config files
 
 ```sh
-cd linux
+cd mrxOS
 KERNEL=kernel8
 make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- bcm2711_defconfig
 ```
