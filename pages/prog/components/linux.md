@@ -4,6 +4,8 @@ Virtualized compilation of the Raspberry Pi Linux Kernel on macOS through Ubuntu
 
 *insert prose here*
 
+## Compiling Linux Kernel
+
 1. Install OrbStack
 
 ```sh
@@ -25,7 +27,7 @@ brew install --cask orbstack
 ```sh
 sudo apt install -y git bc bison flex libssl-dev make libc6-dev libncurses5-dev crossbuild-essential-armhf crossbuild-essential-arm64
 cd /Volumes/<PARTITION NAME>
-git clone --depth=1 https://github.com/raspberrypi/linux
+git clone --depth=1 https://github.com/murexrobotics/linux
 ```
 
 6. Make config files

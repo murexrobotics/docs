@@ -1,4 +1,5 @@
 {
+    "ardupilot": "Ardupilot",
     "networking": "Networking",
     "linux": "Linux",
     "uart": "UART"
