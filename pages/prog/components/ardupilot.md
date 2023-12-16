@@ -16,7 +16,7 @@ cd mrx
 ```sh
 brew install gcc-arm-none-eabi gawk
 brew tap messense/macos-cross-toolchains
-brew install arm-unknown-linux-gnueabihf
+brew install arm-unknown-linux-gnueabihf armv7-unknown-linux-gnueabihf
 ```
 
 3. Configure and compile
