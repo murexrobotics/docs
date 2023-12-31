@@ -8,7 +8,7 @@ This is the MUREX ESC Carrier Board, the world's first open source modular motio
 
 ## Current Status
 
-- `V2.0` production ready
+- `V2.0` tested and functional
 
 ## Detailed Description
 

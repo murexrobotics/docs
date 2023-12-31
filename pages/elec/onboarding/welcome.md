@@ -2,6 +2,9 @@
 
 Welcome to MUREX Robotics Electrical. We are focused on pushing boundaries and making electronics/systems design more accessible to all.
 
+![Raytraced Render](../../img/december_23_poster.png)
+> December 2023 progress poster
+
 ## Introduction
 
 > *"I do not think there is any thrill that can go through the human heart like that felt by the inventor as he sees some creation of the brain unfolding to success"*

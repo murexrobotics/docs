@@ -2,7 +2,7 @@
 
 ## Outline
 
-![Raytraced Render](../../img/power_board_v1.1_release.png)
+![Raytraced Render](../../img/power_board_v2_release.png)
 
 The MUREX Power Board is the world's smallest open-source dual-output, high power module designed for 12V/5V/3.3V DC systems and ROV applications. An integrated current sensor and robust circuit protection combined with microscopic physical dimensions measuring 44mm x 46mm renders the power board an elite feature of MUREX electronics.
 
@@ -12,7 +12,7 @@ The MUREX Power Board is a compact four-layer power "integration" PCB designed f
 
 ## Current Status
 
-- `V2.0` ordered and in production
+- `V2.0` tested and functional
 
 ## Integrated Sensors and ICs
 
@@ -31,11 +31,9 @@ The MUREX Power Board is a compact four-layer power "integration" PCB designed f
 
 ### To Do
 
-- [ ] `V2.0` assembling and testing
-
 ### Changelog
 
-V1.0: 
+V1.0:
 
 - Initial Design
 

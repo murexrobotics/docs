@@ -1,5 +1,7 @@
 # Networking Switch
 
+![Raytraced Render](../../../img/ethernet_switch_v1_release.jpg)
+
 ## Outline
 
 The MUREX Ethernet Switch is the world's first open source ethernet switch. With the focus on minimizing physical footprint and cost, the MUREX Ethernet Switch utilizes external magnetics, a high performance unmanaged switch IC, and 1.25mm pitch Fast Ethernet (100BASE-TX) connectors.
@@ -10,7 +12,7 @@ The MUREX Ethernet Switch is a 5 port 100BASE-TX unmanaged switch using the IP17
 
 ### Current Status
 
-- V1.0 currently designed
+- V1.0 tested and functional, see the [blog post](https://www.murexrobotics.com/blog/murex-ethernet-switch-v1/)
 
 ### Integrated Sensors/ICs
 

@@ -10,12 +10,12 @@ With a physical footprint of 78 mm x 68 mm (3.07 in x 2.68 in), the MUREX Carrie
 
 ## Detailed Description
 
-The MUREX Carrier Board is a robotics-oriented application of the Raspberry Pi Compute Module 4, optimized for ROV control.The design utilizes an ESP32-S3 module, BME680 environmental sensor, LIS3MDL magnetometer, and BMI088 inertial measurement unit (IMU), allowing for a 9 DoF AHRS, full array gas sensing, IEEE 802.11b/g/n (2.4 GHz Wi-Fi), and Bluetooth® 5 (LE). The power input consists of dual TPS259474LRPWR eFuses for 3.3V and 5V, offering OVLO, UVLO, OC, slew rate control, reverse polarity, and analog current monitoring. In addition to 5V and 3.3V input, wwo onboard high-efficiency DC-DC converters allow for 3.3V and 1.05V output. The uPD720202 xHCI USB3.0 interface allows for SuperSpeed USB connectivity and external Ethernet magnetics enable compact Gigabit ethernet. The co-processor design implementing the ESP32-S3 enables wireless capabilities for non-ROV applications and wider GPIO capabilities. All vital data lines are protected against transients. There are on-board system feedback LEDs for input power, Ethernet and CM4 activity/power. Four user-addressable RGB LEDs, modified 40-pin BCM GPIO, 8x ADC, and multiple I2C/SPI lines available across the ESP32 and CM4 enable the MUREX Carrier Board to be a fully-featured ROV control system
+The MUREX Carrier Board is a robotics-oriented application of the Raspberry Pi Compute Module 4, optimized for ROV control. The design utilizes an ESP32-S3 module, BME680 environmental sensor, LIS3MDL magnetometer, and BMI088 inertial measurement unit (IMU), allowing for a 9 DoF AHRS, full array gas sensing, IEEE 802.11b/g/n (2.4 GHz Wi-Fi), and Bluetooth® 5 (LE). The power input consists of dual TPS259474LRPWR eFuses for 3.3V and 5V, offering OVLO, UVLO, OC, slew rate control, reverse polarity, and analog current monitoring. In addition to 5V and 3.3V input, onboard high-efficiency DC-DC converters allow for high power 3.3V and 1.05V output. The uPD720202 xHCI USB3.0 interface allows for SuperSpeed USB connectivity and external Ethernet magnetics enable compact Gigabit ethernet. The co-processor design implementing the ESP32-S3 enables wireless capabilities for non-ROV applications and wider GPIO capabilities. All vital data lines are protected against transients. There are on-board system feedback LEDs for input power, Ethernet and CM4 activity/power. Four user-addressable RGB LEDs, modified 40-pin BCM GPIO, 8x ADC, and multiple I2C/SPI lines available across the ESP32 and CM4 enable the MUREX Carrier Board to be a fully-featured ROV control system
 
 ### Current Status
 
-- `V1.1` functional
-- `V3` in production
+- `V1.1` tested and functional
+- `V3` tested and functional
 
 ### Integrated Sensors/ICs
 
@@ -43,7 +43,7 @@ The MUREX Carrier Board is a robotics-oriented application of the Raspberry Pi C
 - PWR and ACT CM4 LEDs (Debug/Status)
 - Ethernet G/Y LEDs (Debug/Status)
 
-### [Schematic (PDF)](/pdf/schematics/carrier_v3_schematic.pdf)
+### [V3 Schematic (PDF)](/pdf/schematics/carrier_v3_schematic.pdf)
 
 ![Schematic Preview](../../img/carrier_board_schematic_preview.png)
 
@@ -51,8 +51,6 @@ The MUREX Carrier Board is a robotics-oriented application of the Raspberry Pi C
 - [V1.1 Schematic (PDF)](/pdf/schematics/carrier_v1.1_schematic.pdf)
 
 ### To Do
-
-- [ ] HW bring-up for Carrier V3
 
 ### Changelog
 
@@ -91,13 +89,44 @@ V2:
 
 V3:
 
-- In production
+- Complete redesign, now using
+  - uPD720202 USB 3.0 xHCI host controller
+  - Dual buck converter designs with
+    - 5V to 1.05V step down with the AP3429
+    - 5V to 3.3V step down with the TPS54331
+  - Decreased size of addressable LED array with SK6812-EC20 RGB LEDs
+  - Replaced MMC5603 with the LIS3MDL
+  - Retained BMI088 and BME680 sensors
+  - Retained HDMI capability
+  - Implemented a dual architecture design with an ESP32-S3-MINI-1 coprocessor
+    - Enables 8 channels of ADC, multiple I2C/SPI lines, standard GPIO, Bluetooth 5 (LE), IEEE 802.11b/g/n and dual-core Xtensa 32-bit LX7 microprocessors
+  - Modified 40 pin GPIO
+  - Selectable independent 3.3V and 5V inputs, protected with TPS259474LRPWR eFuses
+  - External gigabit magnetics
+  - USB-C USB 2.0 host to save space
+  - Robust transient protection on all data and power lines
 
 | Design               | Status |
 | -------------------- | ------ |
 | Physical Parity      | ❌     |
 | Electrical Parity    | ❌     |
 | Backwards Compatible | ❌     |
+| Component Compatible | ❌     |
+| Schematic Changes    | ✅     |
+| PCB Changes          | ✅     |
+
+V3.1:
+
+- Flipped TX/RX on the ESP32
+- Pulling overcurrent detection high on the uPD720202
+- Output capacitor for the AP3429
+- Replaced ESP32S3 JTAG pins with GPIO
+
+| Design               | Status |
+| -------------------- | ------ |
+| Physical Parity      | ✅     |
+| Electrical Parity    | ❌     |
+| Backwards Compatible | ✅     |
 | Component Compatible | ❌     |
 | Schematic Changes    | ✅     |
 | PCB Changes          | ✅     |
