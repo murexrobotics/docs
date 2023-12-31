@@ -24,6 +24,8 @@ The Linux implementation of UART is as such:
 | `/dev/serial1`   | secondary alias/symbolic link to either `/dev/ttyS0` or `/dev/ttyAMA0`        |
 | `/dev/ttyAMA<x>` | Additional UART lanes that can be enabled through a DeviceTree overlay config |
 
+> For Bookworm, see: [Issue 5667](https://github.com/raspberrypi/linux/issues/5667)
+
 ### Enabling UART
 
 The `enable_uart` flag, used in `/boot/config.txt` tells which UART lane is the primary UART. *The default baud rate of UART is 115200bps*
@@ -45,7 +47,12 @@ The `enable_uart` flag, used in `/boot/config.txt` tells which UART lane is the 
 
 ```sh
 sudo systemctl stop serial-getty@ttyS0.service
+# or
+sudo systemctl stop serial-getty@ttyAMA0.service
+
 sudo systemctl disable serial-getty@ttyS0.service
+# or
+sudo systemctl disable serial-getty@ttyAMA0.service
 ```
 
 And any reference to the serial console **must be removed** from `/boot/cmdline.txt`.
@@ -69,7 +76,7 @@ mini-UART = smaller FIFO, no flow control (lose more characters are high baud), 
 - Remove serial console configuration in `cmdline.txt`
 - Enable UART with `enable_uart=1`
 - Switch to PL011 as primary with `disable-bt`
-- Debugging with a UART-USB bridge like the CP2102 and using `picocom` and `minicom` is very helpful.
+- Debugging with a UART-USB bridge like the CP2102 and using `picocom` and `minicom` is very helpful. Make sure your computer drivers support the bridging chip.
 
 Thus, all references to UART will be to `/dev/ttyAMA0`. A better practice is to use `/dev/serial0` to utilize the abstraction provided by the symbolic links.
 
@@ -77,9 +84,11 @@ Thus, all references to UART will be to `/dev/ttyAMA0`. A better practice is to 
 
 - List serial aliases: `ls -l /dev` or `ls -l /dev | grep serial`
 - Test TX of UART: `echo 'MUREX Robotics' > /dev/ttyAMA0`
-- Test RX of UART: most likely `cat /dev/ttyAMA0`
+- Test RX of UART: use `minicom`, `picocom` or similar
+- Check pin assignments (ex. GPIO4 and GPIO5): `pinctrl get 4,5`
 
 For more information and what this section references:
+**Note that these sources may be outdated with the recent kernel updates and the release of Raspberry Pi Bookworm**
 
 - [Raspberry Pi Documentation <raspberrypi.com>](https://www.raspberrypi.com/documentation/computers/configuration.html#configuring-uarts)
 - [RPi 3 + 4 UART (Spell Foundry) <spellfoundry.com>](https://spellfoundry.com/2016/05/29/configuring-gpio-serial-port-raspbian-jessie-including-pi-3-4/)
