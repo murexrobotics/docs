@@ -4,7 +4,7 @@
 
 ![Raytraced Render](../../img/carrier_board_v3_release.jpg)
 
-The MUREX Carrier Board is a robotics control system, focused on ROV systems. It is the world's first open-source CM4-based ROV control board, world's first open-source implementation of USB3.0 on the Raspberry Pi Compute Module 4, and low-cost.
+The MUREX Carrier Board is a robotics control system, focused on ROV systems. It is the world's first open-source CM4-based ROV control board, world's first open-source USB3.0 controller implementation, and low-cost.
 
 With a physical footprint of 78 mm x 68 mm (3.07 in x 2.68 in), the MUREX Carrier Board is suitable for embedded and space-limited applications.
 
