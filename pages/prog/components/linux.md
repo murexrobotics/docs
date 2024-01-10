@@ -65,3 +65,20 @@ Depending on system performance, the build process should take 15 minutes to an 
 
 - https://www.jeffgeerling.com/blog/2020/cross-compiling-raspberry-pi-os-linux-kernel-on-macos
 - https://www.raspberrypi.com/documentation/computers/linux_kernel.html
+
+## arm64 Virtualized Linux (macOS Apple Silicon)
+
+1. Install UTM
+
+```sh
+brew install --cask UTM
+```
+
+2. Download the latest [Linux arm64 Desktop Image](https://cdimage.ubuntu.com/jammy/daily-live/pending/jammy-desktop-arm64.iso)
+
+3. Open UTM and [follow these instructions](https://docs.getutm.app/guides/ubuntu/)
+   1. Pay special attention to [this](https://docs.getutm.app/guides/ubuntu/#cannot-boot-into-installer)
+
+4. Best settings;
+   1. Display Card: `virtio-ramfb-gl (GPU Supported)`
+   2. Network: `Shared Network + Intel Gigabit e100`
