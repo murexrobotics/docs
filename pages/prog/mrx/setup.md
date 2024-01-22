@@ -23,12 +23,14 @@ python3 -m pip install empy==3.3.4
 ```
 
 *NOTE: You must have a python version less that python 3.12*
+
 ```sh
 python3 -V
 > 3.11.7 # Recommended python version
 ```
 
-### For uploading and other notes, refer to:
-   1. https://github.com/ArduPilot/ardupilot/blob/master/BUILD.md
-   2. https://ardupilot.org/dev/docs/building-setup-mac.html
-   3. https://docs.emlid.com/navio2/ardupilot/installation-and-running#launching-a-custom-ardupilot-binary
+### For uploading and other notes, refer to
+
+   1. <https://github.com/ArduPilot/ardupilot/blob/master/BUILD.md>
+   2. <https://ardupilot.org/dev/docs/building-setup-mac.html>
+   3. <https://docs.emlid.com/navio2/ardupilot/installation-and-running#launching-a-custom-ardupilot-binary>

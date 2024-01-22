@@ -63,8 +63,8 @@ Depending on system performance, the build process should take 15 minutes to an 
 
 ## Next steps & external references
 
-- https://www.jeffgeerling.com/blog/2020/cross-compiling-raspberry-pi-os-linux-kernel-on-macos
-- https://www.raspberrypi.com/documentation/computers/linux_kernel.html
+- <https://www.jeffgeerling.com/blog/2020/cross-compiling-raspberry-pi-os-linux-kernel-on-macos>
+- <https://www.raspberrypi.com/documentation/computers/linux_kernel.html>
 
 ## arm64 Virtualized Linux (macOS Apple Silicon)
 

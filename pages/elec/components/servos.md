@@ -1,6 +1,6 @@
 # Servos
 
-![Savox Servo](../../img/savox_servo.png)
+![Savox Servo](/img/savox_servo.png)
 
 > *Savox SW1210SGP Servo*
 

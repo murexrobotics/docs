@@ -4,7 +4,7 @@
 
 The PLC (internally referred to as the LVX) utilized by MUREX is the RAKWireless LX200V20EVB. Using OFDM technology, it is able to transmit Ethernet data, multiplexed over a stranded pair at speeds of 200 Mbps.
 
-![LX200V20EVB](../../../img/lx200v20evb.png)
+![LX200V20EVB](/img/lx200v20evb.png)
 
 > *Product photo from the RAKWireless product page*
 

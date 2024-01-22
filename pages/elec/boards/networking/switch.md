@@ -1,6 +1,6 @@
 # Networking Switch
 
-![Raytraced Render](../../../img/ethernet_switch_v1_release.jpg)
+![Raytraced Render](/img/ethernet_switch_v1_release.jpg)
 
 ## Outline
 
@@ -36,7 +36,7 @@ The MUREX Ethernet Switch is a 5 port 100BASE-TX unmanaged switch using the IP17
 
 ### [Schematic (PDF)](/pdf/schematics/switch_v1.0_schematic.pdf)
 
-![Schematic Preview](../../../img/switch_schematic_preview.png)
+![Schematic Preview](/img/switch_schematic_preview.png)
 
 ### To Do
 

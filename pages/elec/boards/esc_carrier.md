@@ -2,7 +2,7 @@
 
 ## Outline
 
-![Raytraced Render](../../img/esc_carrier_board_v1.0_release.png)
+![Raytraced Render](/img/esc_carrier_board_v1.0_release.png)
 
 This is the MUREX ESC Carrier Board, the world's first open source modular motion control system. In the event of a speed controller failure, the ESC Carrier Board allows for rapid replacement of the components through a hotswap interface. In addition, the board offers inrush current protection for the ESCs. It has a footprint of 146.7 mm x 85.6 mm (5.78 in x 3.37 in).
 
@@ -62,7 +62,7 @@ The MUREX ESC Carrier board is a two-layer carrier board that can hold up to 6 E
 
 ### [Schematic (PDF)](/pdf/schematics/esc_carrier_v2.0_schematic.pdf)
 
-![Schematic Preview](../../img/esc_carrier_board_schematic_preview.png)
+![Schematic Preview](/img/esc_carrier_board_schematic_preview.png)
 
 ### To Do
 

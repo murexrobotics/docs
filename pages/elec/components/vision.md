@@ -1,30 +1,33 @@
 # Vision
 
-There are many ways to implement vision on the ROV. Currently, electrical has a few ideas:
-
 - Custom USB camera to IP camera compression over a mini SBC with a Banana Pi BPI-P2 Zero or similar
+  - `Success` with Cedrus/Cedar H.264 encoding on an Allwinner H3 SoC
 
 ![Banana Pi BPI-P2 Zero](https://wiki.banana-pi.org/images/d/d2/BPI-F2_zero_1.JPG)
 
 > *The Banana Pi BPI-P2 Zero*
 
 - Custom MIPI-CSI to IP camera compression over a mini SBC with a Banana Pi BPI-P2 Zero or similar
+  - `Untested`
 
 ![Camera Module 3](https://assets.raspberrypi.com/static/c2af6b4a57b2100026272262b6631dae/2b8d7/documentation.webp)
 
 > *The Raspberry Pi Camera Module 3, a MIPI-CSI camera*
 
 - USB to Ethernet extender
+  - `Untested`
 
 ![Startech.com USB to Ethernet Extender](https://media.startech.com/cms/products/gallery_large/usb2004extv.main.jpg)
 
 - IP drone cameras, potentially even gimbal cameras
+  - `Untested, but testing planned`
 
 ![SIYI A2 Mini](https://ueeshop.ly200-cdn.com/u_file/UPAV/UPAV102/2211/18/products/9-400e.png?x-oss-process=image/quality,q_80/resize,m_lfit,h_640,w_640)
 
 > *SIYI A2 Mini Ultra Wide Angle FPV Gimbal Camera*
 
 - IP Security cameras, like ones from Amcrest or others.
+  - `Success with Amcrest IP Camera`
 
 ## Video Streaming Pipeline
 

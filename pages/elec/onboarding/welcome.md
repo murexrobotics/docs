@@ -2,7 +2,7 @@
 
 Welcome to MUREX Robotics Electrical. We are focused on pushing boundaries and making electronics/systems design more accessible to all.
 
-![Raytraced Render](../../img/december_23_poster.png)
+![Raytraced Render](/img/december_23_poster.png)
 > December 2023 progress poster
 
 ## Introduction
