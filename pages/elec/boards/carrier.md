@@ -43,7 +43,7 @@ The MUREX Carrier Board is a robotics-oriented application of the Raspberry Pi C
 - PWR and ACT CM4 LEDs (Debug/Status)
 - Ethernet G/Y LEDs (Debug/Status)
 
-### [V3 Schematic (PDF)](/pdf/schematics/carrier_v3_schematic.pdf)
+### [V3 Schematic (PDF)](/pdf/schematics/carrier_v3.0_schematic.pdf)
 
 ![Schematic Preview](/img/carrier_board_schematic_preview.png)
 
