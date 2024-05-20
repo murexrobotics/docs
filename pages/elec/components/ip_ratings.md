@@ -1,8 +1,8 @@
 # IP Ratings
 
-![IEC IP Ratings](./../../img/IEC_IP_ratings_full.jpg)
+![IEC IP Ratings](/img/IEC_IP_ratings_full.jpg)
 
-> [Click to see full image](./../../img/IEC_IP_ratings_full.jpg)
+> [Click to see full image](/img/IEC_IP_ratings_full.jpg)
 
 IP ratings, short for "ingress protection ratings", tells the consumer how environmentally resistant an electrical component is. This is usually done through testing at a certified facility (for reputable manufacturers) or randomly chosen (for more sketchy manufacturers). This results in uncertainty over the reliability of a device's ingress protection. In short, _**do not look at IP ratings**_ as the end all and be all.
 

@@ -2,7 +2,7 @@
 
 Welcome to MUREX Robotics Electrical. We are focused on pushing boundaries and making electronics/systems design more accessible to all.
 
-![Raytraced Render](../../img/december_23_poster.png)
+![Raytraced Render](/img/december_23_poster.png)
 > December 2023 progress poster
 
 ## Introduction
@@ -199,9 +199,9 @@ What does this mean? Now that you have read through what MUREX Robotics Electric
 
 This is not the end of your learning, only to jumpstart the beginning. 99% of knowledge comes from failing. This is especially true in electronics. Nobody can call themselves a master without having released some [magic smoke](https://en.wikipedia.org/wiki/Magic_smoke). All the links listed above are excellent resources to explore further. The YouTube channels are basically MUREX Electrical's subscription feed. We strongly encourage you to do the same.
 
-> *Dream Big*\
 > *Think Different*\
-> *Don't Throw (joking joking)*
+> *Unleash Innovation*\
+> *Do It Right*
 
 *Always attempting the impossible,*\
 Members:

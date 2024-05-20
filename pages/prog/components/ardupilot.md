@@ -27,6 +27,6 @@ brew install arm-unknown-linux-gnueabihf armv7-unknown-linux-gnueabihf
 ```
 
 4. For uploading and other notes, refer to:
-   1. https://github.com/ArduPilot/ardupilot/blob/master/BUILD.md
-   2. https://ardupilot.org/dev/docs/building-setup-mac.html
-   3. https://docs.emlid.com/navio2/ardupilot/installation-and-running#launching-a-custom-ardupilot-binary
+   1. <https://github.com/ArduPilot/ardupilot/blob/master/BUILD.md>
+   2. <https://ardupilot.org/dev/docs/building-setup-mac.html>
+   3. <https://docs.emlid.com/navio2/ardupilot/installation-and-running#launching-a-custom-ardupilot-binary>

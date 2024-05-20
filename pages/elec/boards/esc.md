@@ -2,9 +2,10 @@
 
 ## Outline
 
-![Raytraced Render](../../img/anyesc_v1_release.jpg)
+![Raytraced Render](/img/anyesc_v1_release.jpg)
 
-The MUREX ESC module is one of the first ESC agnostic speed controlling systems. It is a compact, high power electronic speed controller (ESC) control board, paired with a general purpose MCU to allow for "universal" compatibility. This allows a variety of modules to be used to fit the application, or allow for rapid replacement in the event of a device failure.
+The MUREX ANYESC is the world's first modular serial single ESC, integrating commercial ESCs into a flexible RP2040 board in a card-edge form factor. \
+The MUREX DRVESC is a concept design of a modular, field-oriented-control single ESC integrated into a card-edge form factor with an RP2040 controller.
 
 ## Current Status
 
@@ -39,15 +40,17 @@ There are plans to have multiple, independent versions of this board, hence its 
   - Dual Core ARM Cortex M0+
 - [W25Q64JVXGIQ](https://www.winbond.com/resource-files/W25Q64JV%20RevK%2003102021%20Plus.pdf) 8MB QSPI flash
 
-### [STESC Schematic (PDF)](/pdf/schematics/stesc_v1.0_schematic.pdf)
+### [ANYESC Schematic (PDF)](/pdf/schematics/anyesc_v1.0_schematic.pdf)
 
-![Schematic Preview](../../img/stesc_schematic_preview.png)
+![Schematic Preview](/img/anyesc_schematic_preview.png)
 
 ### [DRVESC Schematic (PDF)](/pdf/schematics/drvesc_v1.0_schematic.pdf)
 
-![Schematic Preview](../../img/drvesc_schematic_preview.png)
+![Schematic Preview](/img/drvesc_schematic_preview.png)
 
 ### To Do
+
+- InstaSPIN FOC ESC design
 
 ### Changelog
 

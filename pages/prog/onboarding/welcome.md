@@ -11,13 +11,13 @@ MUREX Programming is hard. We write code in various languages, that run on a var
 
 ## Required Software
 
-- [Rust](https://www.rust-lang.org/tools/install)
+- [Ardupilot](https://github.com/murexrobotics/mrx)
+- Linux and Windows Machines/VMs
 - [Python 3.11.*](https://www.python.org/downloads/release/python-3110/)
+- [Rust](https://www.rust-lang.org/tools/install)
 - [VS Code](https://code.visualstudio.com/download)
   - We strongly encourage the use of VS Code due to the large plugin ecosystem and the ability to use it on any platform. You are free to use whatever IDE you would like, however support for setting up development tools will be limited..
 - [Git](https://git-scm.com/downloads)
-- MacOs or Linux
-  - Once again, we strongly encourage the use of either MacOs or Linux, specifically for our embedded and aquatic subgroups. You are free to use whatever OS you would like, however many of the tools we use are either not supported on Windows or are more difficult to set up on Windows.
 
 ## Design Process
 
