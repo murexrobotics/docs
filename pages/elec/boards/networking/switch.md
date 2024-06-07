@@ -1,6 +1,6 @@
 # Networking Switch
 
-![Blender Render](/img/ethernet_switch_v2_release.jpg)
+![Blender Render](/img/ethernet_switch_v2_release.png)
 
 ## Outline
 
