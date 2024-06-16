@@ -1,8 +1,6 @@
 # Networking Switch
 
 ![Blender Render](/img/ethernet_switch_v2_release.png)
-![Photo 1](/img/switch1.png)
-![Photo 2](/img/switch2.png)
 
 ## Outline
 
@@ -16,7 +14,7 @@ Measuring 44.9mm by 42.2mm, mrxSwitch V2 is the smallest networking switch in th
 
 ### Current Status
 
-- V2.0 tested and functional
+- V2.0 tested and functional, see the [board layout files](https://github.com/murexrobotics/electrical-2024/tree/main/networking/switch)
 - V1.0 tested and functional, see the [blog post](https://www.murexrobotics.com/blog/murex-ethernet-switch-v1/)
 
 ### Integrated Sensors/ICs
@@ -55,3 +53,7 @@ Measuring 44.9mm by 42.2mm, mrxSwitch V2 is the smallest networking switch in th
     - overall BOM cost reduction by 15% (more basic parts)
     - replaced both QT24A23s with the QT48A03, a cheaper and more compact solution
     - removed config components and EEPROM
+
+### More Photos!!
+![Photo 1](/img/switch1.png)
+![Photo 2](/img/switch2.png)
