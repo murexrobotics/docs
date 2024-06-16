@@ -10,7 +10,7 @@ The mrxSwitch is the world's smallest and cheapest networking switch, in additio
 
 The MUREX Ethernet Switch, or mrxSwitch, is a 5 port 100BASE-TX unmanaged switch using the IP175Gx Ethernet Integrated Switch IC. mrxSwitch steps down an input up to 15V down to its operating voltage of 3.3V. Designed with a four layer board for minimal noise, the mrxSwitch has full Bob-Smith style termination for all center taps and calculated differential pairs of 100Ω. The switch utilizes 10 pairs of magnetic transformer and common-mode chokes to ensure proper compliance with the IEEE 802.3 standard.
 
-Measuring 44.9mm by 42.2mm, mrxSwitch V2 is the smallest networking switch in the world and outperforms all commerically available options in size and cost. Its applications include but are not limited to embedded systems, ROVs and AUVs, consumer electronics, DIY projects, and other space-constrained networking applications.
+Measuring 44.9mm by 42.2mm, mrxSwitch V2 is the smallest networking switch in the world and outperforms all commercially available options in size and cost. Its applications include but are not limited to embedded systems, ROVs and AUVs, consumer electronics, DIY projects, and other space-constrained networking applications.
 
 ### Current Status
 
