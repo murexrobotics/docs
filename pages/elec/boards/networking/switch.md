@@ -55,5 +55,6 @@ Measuring 44.9mm by 42.2mm, mrxSwitch V2 is the smallest networking switch in th
     - removed config components and EEPROM
 
 ### More Photos!!
+![Photo 3](/img/switch3.JPG)
 ![Photo 1](/img/switch1.png)
 ![Photo 2](/img/switch2.png)
