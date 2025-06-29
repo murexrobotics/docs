@@ -1,5 +1,5 @@
 {
     "networking": "Networking",
-    "switch": "Ethernet Switch",
+    "switch": "MrxSwitch",
     "plc": "PLC Module"
 }
