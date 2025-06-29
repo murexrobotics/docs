@@ -12,7 +12,7 @@ This is the MUREX ESC Carrier Board, the world's first open source modular motio
 
 ## Detailed Description
 
-The MUREX ESC Carrier board is a two-layer carrier board that can hold up to 6 ESCs. The ESCs are protected from inrush current by Ametherm's AS32_1R030 NTC thermistor, which provides a resistance of 1Ω at 25°C. The board receives 12V and 3.3V input from the [MUREX Power Board](https://docs.murexrobotics.com/elec/boards/power.html) via the 8-channel Molex 43045-0821 Micro-Fit connector, and data is exchanged via the 2-wire UART protocol with the [MUREX Carrier Board](https://docs.murexrobotics.com/elec/boards/carrier.html) through the 5-channel Molex 53047-0510 PicoBlade. The TE 5530843-7 connector is used to connect the ESCs to the ESC Carrier Board. The Molex 43045-0627 Micro-Fit connector is used to output the ESC phases to the brushless DC motors.
+The MUREX ESC Carrier board is a two-layer carrier board that can hold up to 6 ESCs. The ESCs are protected from inrush current by Ametherm's AS32_1R030 NTC thermistor, which provides a resistance of 1Ω at 25°C. The board receives 12V and 3.3V input from the [MUREX Power Board](https://docs.murexrobotics.com/elec/boards/power.html) via the 8-channel Molex 43045-0821 Micro-Fit connector, and data is exchanged via the 2-wire UART protocol with the [MUREX Carrier Board](https://docs.murexrobotics.com/elec/boards/cm4_carrier.html) through the 5-channel Molex 53047-0510 PicoBlade. The TE 5530843-7 connector is used to connect the ESCs to the ESC Carrier Board. The Molex 43045-0627 Micro-Fit connector is used to output the ESC phases to the brushless DC motors.
 
 ### Connectors and ICs
 
@@ -33,7 +33,7 @@ The MUREX ESC Carrier board is a two-layer carrier board that can hold up to 6 E
         - 1 positions
     - Remaining 4 positions used for grounding
 
-- [Molex 53047-0510 PicoBlade](https://www.molex.com/en-us/products/part-detail/530470510?display=pdf) (to [MUREX Carrier Board](https://docs.murexrobotics.com/elec/boards/carrier.html))
+- [Molex 53047-0510 PicoBlade](https://www.molex.com/en-us/products/part-detail/530470510?display=pdf) (to [MUREX Carrier Board](https://docs.murexrobotics.com/elec/boards/cm4_carrier.html))
     - 1.0A maximum current per position
     - Vertical mating
     - 5 positions (1 x 5)

@@ -1,4 +1,4 @@
-# Carrier Board
+# CM4 Carrier Board
 
 ## Outline
 

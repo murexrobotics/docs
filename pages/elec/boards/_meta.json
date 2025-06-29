@@ -2,7 +2,7 @@
     "cm4_carrier": "CM4 Carrier",
     "power": "Power",
     "shield": "Shield",
-    "minifoc": "MinifocESC",
+    "minifoc": "MiniFOC ESC",
     "anyesc": "AnyESC",
     "anyesc_carrier": "AnyESC Carrier",
     "networking": "Networking"
